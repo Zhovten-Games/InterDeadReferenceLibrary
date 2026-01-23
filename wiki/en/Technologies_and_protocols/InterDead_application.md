@@ -1,188 +1,150 @@
 [^clean]: Clean version: https://interdead.fandom.com/wiki/InterDead_application
 [^clean]
 
-== InterDead application ==
-An experimental application for communication with the dead.
+== InterDead Application ==
 
-Main declared tasks:
+An experimental application for communication with nodes of the [[Nectosphere|nectosphere]].
 
-* establishing one-time/serial contact with arbitrary nodes of the [[Nectosphere|nectosphere]];
-* obtaining fragments of their memories via the emoji protocol;
-* protecting living users from direct contact with local spirits (stealth mode).
+The application is considered an access and filtering interface rather than a means of addressing specific individuals.
 
-Limitations:
+=== Core declared objectives ===
 
-* is not intended for calling a “specific person”;
-* works on the principle of statistical resonance (see below).
+* establishing one-time or serial contacts with arbitrary [[Nectosphere_node|nexthospheric nodes]];
+* obtaining memory fragments, responses, and interaction outcomes through formalized protocols;
+* ensuring the safety of the living user via continuous signal masking.
 
-=== Emoji protocol ===
-A supralingual protocol of exchange with the nectosphere based on emoji.
+=== Limitations ===
 
-Description:
+* the application is not intended to summon a “specific person”;
+* contact is established according to the principle of statistical resonance;
+* stealth mode is singular, permanent, and non-disableable.
 
-* a sequence of emoji → is converted into a semantic vector;
-* the vector is projected into the nectosphere;
-* a cluster with the maximum match in the “cloud of meanings” is selected by it.
+== Emoji Protocol ==
 
-Reason for choosing emoji:
+The Emoji Protocol is a supralinguistic interaction protocol with the nexthosphere, based on meaning formalization through a limited set of symbols.
 
-* they are not tied to a national language;
-* they are well suited to semantic modelling as sets of semantic features.
+* emoji sequences are transformed into a semantic vector;
+* the vector is projected into the nexthosphere;
+* the node with the highest profile match is selected.
 
-=== Semantic vector ===
-A mathematical representation of the meaning of a message in the form of a point/cloud in a multidimensional space.
+Reasons for choosing emoji:
 
-Use:
+* they are not bound to any national language;
+* they are convenient for semantic modeling and context limitation;
+* they reduce the risk of direct linguistic and emotional escalation.
 
-* each combination of emoji → a set of coordinates;
-* the search for a [[Nectosphere_node|nectosphere node]] proceeds on the principle of “find the nearest point/cluster”.
+A detailed description is provided in a separate article:
 
-=== Statistical resonance ===
-A mechanism for establishing communication with the dead.
+* [[Emoji_Protocol]]
 
-Essence:
+== Semantic vector ==
 
-* the application does not address a specific deceased person;
-* the algorithm searches for a [[Nectosphere_node|node]] with the maximum match of the semantic profile;
-* communication is established with the one whose pattern “best fits” the request.
+A semantic vector is a mathematical representation of message meaning as a point or cloud in multidimensional space.
+
+* each emoji combination corresponds to a coordinate set;
+* node search follows the “nearest match” principle;
+* results are probabilistic and fragmentary.
+
+== Statistical resonance ==
+
+The mechanism underlying contact:
+
+* the application does not address a specific personality;
+* a node most closely matching the semantic request profile is selected;
+* contact emerges as a side effect of pattern coincidence.
 
 This explains:
 
-* the impossibility of guaranteed calling the “desired personality”;
-* the random nature of contacts.
+* the impossibility of guaranteed summoning of a desired individual;
+* the variability and incompleteness of obtained responses.
 
-=== Stealth mode ===
-A mode of masking the user's signal in the nectosphere. It is the ''basic and mandatory'' mode for consumer builds of the application.
+== Stealth mode ==
 
-Technical behaviour:
+Stealth mode is the **only and mandatory** operational mode of the application.
 
-* the emotional/semantic profile of requests is “fragmented” and smoothed;
-* the signal is made to resemble background noise;
-* nectosphere routers do not perceive the source as a significant node.
+Technical features:
+
+* emotional-semantic request profiles are fragmented and smoothed;
+* the signal is masked as background activity;
+* the source is not perceived by the nexthosphere as a significant node.
 
 Consequences:
 
-* local spirits do not register the source as an object of interest;
-* requests are proxied to remote segments;
-* the risk of direct contact with “inhabitants of the place” is reduced.
+* minimization of local direct contact risk;
+* proxying of interactions through remote segments;
+* reduced likelihood of sustained “reverse interest” from nodes.
 
-Legal and regulatory status:
+No additional or “enhanced” stealth modes are предусмотрено.
 
-* after a series of incidents and lawsuits, disabling stealth mode in user (consumer) versions of the application is prohibited;
-* changing the mode is only possible via internal development/debug mechanisms and is not documented in public user documentation.
+== Interaction protocol (simplified) ==
 
-=== Exposure mode ===
-A mode opposite to stealth mode.
+# The user formulates a request (most often as an emoji sequence).
+# The request is converted into a semantic vector and projected into the nexthosphere.
+# The node with the highest profile match is selected.
+# Response activity arises on the node side.
+# The response may be received:
+## as emoji;
+## as an image;
+## as an audio fragment;
+## as a linked artifact.
 
-Functions:
+The response format is determined by accumulated context and emoji protocol rules.
 
-* a sharp increase in [[Node_brightness|node brightness]];
-* turning it into a “beacon” for nectospheric processes;
-* creating conditions for forming a directed channel (for example, the supposed [[Return corridor|return corridor]]) to the corresponding port of a living body or another target interface.
+== Artifacts ==
 
-Risks:
+In some sessions, interaction results in an **artifact** — a linked object recorded in an acceptable form:
 
-* the node becomes noticeable and attractive for other dead;
-* the probability of a “chase” and attempts to intercept the channel increases.
+* image;
+* audio fragment;
+* link;
+* other digital anchor.
 
-Availability:
+Obtaining an artifact is considered a valid possible session outcome.
 
-* the mode is not available in regular user builds;
-* enabling it is only possible in developer mode / research configurations:
-** through separate diagnostic interfaces;
-** with multi-step confirmation and strict legal disclaimers;
-* in protocol specifications it is described as experimental and high-risk (see also section [[Theories about the nectosphere and boundary states]]).
+== Typical session lifecycle ==
 
-=== Residual synchronisation ===
-A term denoting a hypothetical temporary two-way link between the configuration of consciousness in the nectosphere and live digital services.
+# Request initialization (emoji → semantic vector).
+# Resonant node search.
+# Emergence of response activity.
+# Receipt of response or artifact.
+# Session termination and cluster activity decay.
 
-It is considered in detail as a model in the section [[Techno-theories]].
+== Theoretical models and hypotheses ==
 
-=== Post-mortem interface emulation ===
-A concept describing the possible reproduction in the nectosphere of interfaces familiar to a personality.
+The following concepts are not mandatory protocol components but are used to interpret observed effects.
 
-The theoretical aspects and the supposed mechanism are set out in [[Techno-theories]].
+=== Residual synchronization ===
+
+A hypothesis of temporary bidirectional linkage between consciousness configuration in the nexthosphere and living digital services.
+
+Considered a model within [[Techno-Theory]].
+
+=== Postmortem interface emulation ==
+
+A concept describing potential reproduction of interfaces familiar to a personality during life within the nexthosphere.
+
+Theoretical aspects are presented in [[Techno-Theory]].
 
 === AI assistant ===
-A digital support and accompaniment system for the user, trained on their data (history of actions, queries, preferences).
 
-Roles within the model:
+A digital user support system trained on personal data.
 
-* in life — a classical assistant/organiser integrated with the InterDead application and/or other services;
-* in post-mortem scenarios — is considered a potential core of the digital profile, capable of participating in extended protocols of interaction with the nectosphere (see the section [[Techno-theories]]).
+In theoretical models considered:
 
-== InterDead application documentation (short technical specification) ==
+* during life — as an auxiliary interface;
+* in postmortem scenarios — as a potential digital profile core.
 
-=== Purpose ===
-* Establishing communication with arbitrary nodes of the [[Nectosphere|nectosphere]].
-* Obtaining fragments of memories via the emoji protocol.
-* Providing basic user safety through stealth mode.
+== Side effects ==
 
-=== Architecture ===
-Components:
+=== For the living ===
 
-* '''Client''' (on the user side):
-** collection of the emoji request;
-** primary semantic processing;
-** dialogue interface.
+* obsessive interpretation analysis;
+* illusion of control over postmortem communication;
+* risk of psychological dependency with prolonged use.
 
-* '''Nectosphere access server''':
-** building of the semantic vector;
-** search for a resonant cluster in the nectosphere;
-** maintaining the communication channel.
+=== For nodes ===
 
-* '''Protection module (stealth/exposure)''':
-** controlling node brightness;
-** masking or exposure in the nectosphere.
-
-If necessary, the architecture can be extended with external AI services via API.
-
-=== Modes of operation ===
-
-==== Standard mode ====
-* stealth is active by default;
-* in user builds, disabling stealth is not provided;
-* single communication sessions;
-* node brightness is minimal.
-
-==== Stealth mode (enhanced) ====
-* additional suppression of the signal;
-* recommended for group trips to “cursed places”;
-* all contacts only through remote segments.
-
-==== Exposure mode ====
-* used in exceptional scenarios and only in developer / research builds;
-* node brightness increases sharply;
-* conditions are created for forming directed communication channels if a port is available;
-* not available in user builds.
-
-=== Interaction protocol (simplified) ===
-# The user forms a request in emoji.
-# The client builds a semantic vector and sends it to the server.
-# The server searches in the nectosphere for the nearest node by profile (statistical resonance).
-# On the node’s side, an obsessive thought / flash of activity arises.
-# The response is encoded in the form of images, which the client interprets and displays to the user (usually through new emoji and/or text hints).
-
-=== Limitations ===
-* There is no direct addressing by personality (“calling a specific dead person” is impossible).
-* A high proportion of noisy and fragmentary responses.
-* With long sessions, the risk of mental destabilisation of the user grows (obsessiveness of emoji interpretation).
-
-=== Side effects for the living ===
-* obsessive search for the “correct” interpretation of emoji;
-* formation of stable illusions of control over post-mortem communication;
-* risk of dependence on the application as the only way of experiencing loss.
-
-=== Side effects for the dead ===
-* obsessive thoughts and recurring flashes of memories;
-* increased fragmentation of personality with constant unsuccessful sessions;
-* possible shifting of the node towards mainlines due to increased load.
-
-=== Typical life cycle of a session ===
-# Initialisation of the request (emoji → semantic vector).
-# Search for a resonant node in the nectosphere.
-# Obsessive thought on the side of the dead.
-# Response → interpretation → new emoji combination.
-# End of the session, decline of activity in the corresponding cluster.
-
+* recurring memory flashes;
+* activity fragmentation with frequent contact;
+* possible drift toward mainlines under overload.
 [[Category:Technologies and protocols]]

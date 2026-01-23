@@ -1,27 +1,41 @@
 [^clean]: Clean version: https://interdead.fandom.com/wiki/P-FIREWALL
 [^clean]
 
-A global metaphysical “firewall” [[Incident P-01|introduced after P-01]].
+== P-FIREWALL ==
 
-Functions:
+=== Purpose ===
 
-* filtering traffic between the nectosphere and technonetworks;
-* automatic dropping of content that matches patterns of:
-**   “lonely figures in empty rooms”;
-**   stable scenarios of looping despair;
-**   certain types of direct visual channels.
+P-FIREWALL is a multi-layered protective perimeter designed to filter and attenuate traffic between the nexthosphere and technonetworks.
 
-Architecturally, P-FIREWALL relies on existing network practices:
+It was [[Incident P-01|introduced after P-01]] and aims to reduce the risks of uncontrolled penetration of nexthospheric patterns into digital environments.
 
-* classical packet and stateful firewalls;
-* application gateways and DPI (deep packet inspection);
-* groundwork of large national filtering infrastructures (up to analogies with the so-called “Great Chinese Firewall”).
+=== Functions ===
 
-P-FIREWALL adds an additional <u>“nectospheric layer”</u> to the TCP/IP stack and encryption protocols (SSL/TLS and their early/parallel analogues):
+P-FIREWALL performs the following tasks:
 
-* not only headers and packet contents are analysed, but also stable metaphysical patterns accompanying the traffic;
-* integrations are used at the level of SSL termination, MITM proxies and inspection of encrypted sessions (for example, by SNI, behavioural characteristics, metadata);
-* on top of this, rules are imposed for blocking or blurring potentially dangerous channels through which nectospheric traffic may break through.
+* filtering traffic between the nexthosphere and network infrastructures;
+* automatic detection and attenuation of channels corresponding to stable metaphysical patterns;
+* degradation or blurring of hazardous interaction forms.
 
-Result: mass breakthroughs at the level of “scary websites” are made much more difficult, but not completely forbidden; part of the traffic goes into underground/experimental zones where P-FIREWALL does not work fully or is bypassed.
+Patterns associated with any intense or repetitive emotional states may be subject to filtering if they form a stable resonance channel.
+
+=== Architectural principles ===
+
+From a technical perspective, P-FIREWALL relies on generalized network security practices:
+
+* classical packet and stateful filters;
+* application gateways and DPI;
+* mass filtering and traffic segmentation infrastructures.
+
+Additionally, a nexthospheric analysis layer is introduced, taking into account:
+
+* not only packet headers and payloads, but also accompanying stable patterns;
+* metadata, behavioral characteristics, and indirect channel indicators;
+* rules for blocking, limiting, or distorting potentially dangerous resources.
+
+=== Outcome ===
+
+Deployment of P-FIREWALL has significantly reduced the likelihood of mass breaches through generalized digital resources and platforms, without eliminating the risk entirely.
+
+A portion of traffic is displaced into marginal, experimental, or poorly controlled zones where P-FIREWALL effectiveness is limited.
 [[Category:Technologies and protocols]]
