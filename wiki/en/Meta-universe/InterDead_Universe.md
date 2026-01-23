@@ -1,82 +1,71 @@
 [^clean]: Clean version: https://interdead.fandom.com/wiki/InterDead_Universe
 [^clean]
 
-InterDead is a psychologically oriented horror game in development by [https://www.linkedin.com/company/zhovten-games/ Zhovten Games], with a visual novel interface and planned tabletop RPG sessions, forming the core of the eponymous meta-universe.
+InterDead is a psychologically oriented horror game in development by [[https://www.linkedin.com/company/zhovten-games/ Zhovten Games]], featuring a visual-novel interface and tabletop role-playing sessions (TTRPG), forming the core of the eponymous meta-universe.
 
-== How the universe is developing ==
-The InterDead project is currently being developed as a collaboration of several authors and formats:
+== How the universe develops ==
 
-* tabletop role-playing (TTRPG) sessions are planned to be held in this universe;
-* in parallel, Zhovten Games is developing a psychologically oriented horror game with a visual novel interface:
-** a separate part of the novel will be devoted to the creator himself and his fate: to how the sincere desire “to make things better for people”, social awkwardness, and the persistent attempt to explain grief in academic language combine;
-* all significant findings, contradictions and “precedents” are eventually brought together and reconciled here, on the wiki.
+The InterDead project develops as an authorial universe of Zhovten Games studio.
 
-The world is described in a fairly strict way from a technical point of view (the nectosphere, mainlines, protocols, the InterDead application), however TTRPG sessions and the future game will inevitably generate new cases that will require clarifications and more detailed descriptions. Therefore, the <u>canon of the universe is considered to be evolving</u>: the basic framework has already been set, but many sections are still in a test-and-refinement phase.
+* tabletop role-playing sessions are regularly conducted within the InterDead world;
+* materials and observations obtained during TTRPG sessions are used to refine and develop the canon;
+* decisions regarding fixation and formulation of canonical elements are made by the project authors.
 
-At the moment, the sections mainly open to free editing by the general public are those related to:
+The InterDead world is described rather strictly from a technical perspective (nexthosphere, mainlines, protocols, InterDead application). The canon is considered evolving in the sense that its foundational framework is already defined, while further work focuses on clarifying connections, consequences, and formulations arising from practical model usage.
 
-* theoretical models (the “Theories” page),
-* key incidents.
+At present, sections primarily open for free public editing are those related to:
 
-The remaining pages (the core lore, technical descriptions, critical entities) are edited only by the authors and moderators of the project.
+* theoretical models;
+* key incidents and generalized cases.
 
-If you want to participate in the development of the universe on a deeper level — to send edits, ideas or your own materials — write to '''interdead@phantom-draft.com''' with a brief description of your experience and interests. After the game’s release and the first TTRPG campaigns, we plan to expand the circle of participants who have access to key sections.
+Other pages (core lore, techno-descriptions, critical entities) are edited by project authors and moderators.
 
-== Speculative Fiction Horror<ref name="specfi" /> ==
+== Speculative-scientific horror (Speculative Fiction / SpecFi)<ref name="specfi" /> ==
 
-'''Speculative Fiction Horror''' (SpecFi Horror) is a form of horror that emerges from speculative systems, hypotheses, and internally consistent models rather than from spectacle or shock effects.
+**Speculative-scientific horror** (Speculative Fiction Horror, SpecFi Horror) is a form of horror arising from speculative systems, hypotheses, and internally coherent models rather than spectacle or shock effects.
 
-It focuses on:
+Its focus includes:
 
-* imagined technologies, protocols, or institutions and their unintended consequences,
-* rational or pseudo-rational attempts to formalise grief, fear, or the unknown,
-* horror arising as a by-product of logic, procedure, and repetition rather than transgression or excess.
+* imagined technologies, protocols, or institutions and their unintended consequences;
+* rational or pseudo-rational attempts to formalize grief, fear, and the unknown;
+* horror as a byproduct of logic, procedures, and repetition.
 
-'''Speculative''' — because in our case all of this is built on top of:
+In InterDead, this is constructed atop:
 
-* language and sign systems (emoji, attempts at universal languages, the nectospheric protocol);
-* psychologically oriented models of fear (PsiFramework, EFBD — Echoed Big Five of Dread);
-* the techno-lore of an experimental application for communicating with the dead and of intersections between the networks of the living and the deceased.
+* languages and sign systems (emoji, universal language attempts, nexthospheric protocols);
+* psychologically oriented fear models (PsiFramework, EFBD — Echoed Big Five of Dread);
+* techno-lore of an experimental application for communicating with the dead.
 
 <references>
 <ref name="specfi">
-Speculative Fiction (SpecFi) is used here in its broad, non-marketing sense: as an umbrella term for narratives built around hypothetical systems, technologies, or social mechanisms.  
-The term is intentionally chosen to distance the project from exploitation-oriented “B-horror” aesthetics and to emphasise that horror in InterDead functions as a consequence of structured ideas, procedures, and speculative models rather than as an end in itself.
+The term Speculative Fiction (SpecFi) is used here in a broad, non-marketing sense — as an umbrella designation for narratives built around hypothetical systems, technologies, or social mechanisms.
+It is chosen deliberately to emphasize that in InterDead, horror functions as a consequence of structured ideas, procedures, and speculative models rather than as an end in itself.
 </ref>
 </references>
 
-----
+=== On textual style and authorial perspective ===
 
-=== On the style of texts, the creator, and the specific sense of humour ===
-Any description of the InterDead world order here is a conditional construct from the perspective of the project’s creator, who:
+Any description of the InterDead world within this wiki is presented as authorial narrative, framed in an academic or pseudo-academic manner.
 
-# honestly admits that he is not very good at expressing his thoughts “clearly and simply”;
-# sincerely tries to follow “proper” marketing solutions — and systematically misses the expectations of living people.
+Characteristic features include:
 
-Within the universe, the creator of InterDead is a person whose complete lack of understanding of human psychology and basic empathy becomes one of the project’s comedic elements. He strives to comfort, but:
+* formalized language;
+* light bureaucratic tone;
+* an attempt to describe emotional and existential themes through schemes, terms, and procedures.
 
-* the landing page and the reviews on the site are unlikely to calm anyone in a moment of grief;
-* it is much more likely that they will trigger a fit of hysterical laughter, mild cognitive dissonance, or the desire to ask again: “Did you seriously intend it exactly like this?”.
+This style is chosen deliberately and constitutes part of the project’s artistic device.
 
-Initially, the very idea — to create a technically explained messenger for communicating with the dead — seemed genius to the creator. Soon, however, a rather down-to-earth realisation crashes down on him: in most cases people ''do not care that much about how exactly “things are arranged on the other side” and how elegant the model of the nectosphere is''. They simply miss those who have left them.
+As literary associations, it is appropriate to recall Lovecraft and Hodgson as examples of presenting material in the form of reports, notes, and pseudo-scientific documents.
 
-This wiki is, in a certain sense, a by-product of an attempt by a very asocial person to talk to a broad audience in a language that seems honest and safe to him: through schemes, terms and pseudo-academic constructions.
+=== Sources of inspiration ===
 
-We ask all authors and co-authors to adhere to a similar manner:
+The InterDead project draws inspiration from various works of horror culture and speculative fiction, including:
 
-* academic or pseudo-academic style;
-* a slight bureaucratic tone and a love for formalisation;
-* a minimum of “talking in simple terms”, even where memes and jokes are usually used.
+* the aesthetics of “forbidden texts” and dangerous knowledge;
+* corporeal and textual horror;
+* the conception of networks as environments of alienation, loneliness, and loss;
+* the film *Pulse* (*Kairo*) and related interpretations of the network as a space of isolation;
+* the works of Clive Barker, in which the boundary between body, text, and the other world is blurred.
 
-As literary associations, it is appropriate to recall Lovecraft and Hodgson: heavy reports, pseudo-scientific notes and attempts to describe the indescribable in an overly serious language. The in-world authors of InterDead write as if they need to report to a commission rather than entertain the reader — and this is exactly what creates the desired effect.
-
-----
-
-=== Explicitly acknowledged sources of inspiration ===
-
-* “The Evil Dead” and the entire aesthetics of the “Necronomicon” as a book that “should not exist, but does”;
-* Clive Barker, “Books of Blood” — texts where the worlds of the dead and the living are connected through text, body and mainlines of pain;
-* “Pulse” / “Kairo” — a Japanese view of the network as an environment in which loneliness and death become traffic.
-
-Within the InterDead lore, events resembling those described in these works are treated as real incidents in different segments of the nectosphere — simply shown through the eyes of other witnesses and in a different artistic key. We rely on them when imagining “how things might work on the other side”, but we try to do this more carefully and coldly.
+These sources serve as the cultural and artistic background of the project and are used as references for mood, imagery, and thematic emphasis.
 [[Category:Meta-universe]]
