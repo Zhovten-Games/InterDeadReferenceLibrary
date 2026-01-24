@@ -22,7 +22,7 @@ Other pages (core lore, techno-descriptions, critical entities) are edited by pr
 
 == Speculative-scientific horror (Speculative Fiction / SpecFi)<ref name="specfi" /> ==
 
-**Speculative-scientific horror** (Speculative Fiction Horror, SpecFi Horror) is a form of horror arising from speculative systems, hypotheses, and internally coherent models rather than spectacle or shock effects.
+Speculative-scientific horror (Speculative Fiction Horror, SpecFi Horror) is a form of horror arising from speculative systems, hypotheses, and internally coherent models rather than spectacle or shock effects.
 
 Its focus includes:
 
@@ -64,7 +64,7 @@ The InterDead project draws inspiration from various works of horror culture and
 * the aesthetics of “forbidden texts” and dangerous knowledge;
 * corporeal and textual horror;
 * the conception of networks as environments of alienation, loneliness, and loss;
-* the film *Pulse* (*Kairo*) and related interpretations of the network as a space of isolation;
+* the film Pulse (Kairo) and related interpretations of the network as a space of isolation;
 * the works of Clive Barker, in which the boundary between body, text, and the other world is blurred.
 
 These sources serve as the cultural and artistic background of the project and are used as references for mood, imagery, and thematic emphasis.

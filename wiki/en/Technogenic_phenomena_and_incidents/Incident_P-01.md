@@ -1,6 +1,8 @@
 [^clean]: Clean version: https://interdead.fandom.com/wiki/Incident_P-01
 [^clean]
 
+__TOC__
+
 == Brief description ==
 
 Incident P-01 refers to an early technogenic experiment of the early 2000s, during which a partial topological correlation was recorded between an experimental communication network and the structures of the [[Nectosphere]].

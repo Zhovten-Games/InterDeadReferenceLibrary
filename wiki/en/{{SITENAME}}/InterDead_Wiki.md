@@ -39,6 +39,7 @@ InterDead is a psychologically oriented horror game in development by [https://w
 
 * [[P-FIREWALL]] – global metaphysical firewall built on top of classic network stacks.
 * [[InterDead_application]] – experimental client for contacting the dead (emoji protocol, stealth / exposure).
+** [[Emoji_Protocol]] – is an executable dialogue protocol: a message defines a contract (what is admissible as a response), and continuation of the conversation is determined by validity of the response and confirmation via an ACK reaction.
 <code>'''Tip:'''  For technical deep dives into how the application works, see: [[InterDead application#InterDead application documentation (short technical specification)|'''InterDead application documentation (short technical specification)''']].</code>
 ----
 

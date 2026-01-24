@@ -17,7 +17,7 @@ For this reason, the protocol requires discipline: one must read the contract ca
 
 Responsibility addendum: the messenger/protocol records only recommended rules for safe operation. Any deviations from the rules, “bargaining” with a node, or deliberate expansion of contracts are performed at the user’s/host’s own risk; the system does not assume responsibility for the consequences.
 
-== 0) Purpose (application only) ==
+== Purpose (application only) ==
 The Emoji Protocol is an '''executable dialogue protocol''': a message defines a '''contract''' (what is admissible as a response), and continuation of the conversation is determined by '''validity''' of the response and confirmation via an '''ACK reaction'''.
 
 Within the InterDead application, the protocol is used for:
@@ -28,7 +28,7 @@ Within the InterDead application, the protocol is used for:
 
 ''Important note on “brightness,” “intensity,” and “audio boosters”:'' any signal regulators (increase of node visibility, “brightness boost,” amplification/exposure) belong to the '''application implementation layer''' (stealth/exposure modules, node “brightness” control) and '''are not part of the language'''. They are not included in the dictionary: chat/dialogue cannot “push” a node beyond permitted limits.
 
-== 1) Historical foundation: Leibniz (1666) ==
+== Historical foundation: Leibniz (1666) ==
 The foundation is the Leibnizian idea of '''symbolic notation and procedurality''':
 
 * the complex is expressed through combinations of simple signs;
@@ -43,8 +43,8 @@ However, our interpretation is fundamentally '''applied''':
 ''Reference to notes/research (insert URL):''
 * https://github.com/Zhovten-Games/InterDeadReferenceLibrary/blob/411862566823967fc78ee04bf9833eea17694d4f/research/leibniz_1666_conspect/Leibniz%20(1666)%20-%20a%20glossary%20of%20source%20terms%20and%20a%20brief%20explanation.md
 
-== 2) Key limitation: “truth is different for everyone” — and why this does not break the protocol ==
-=== 2.1 What is actually computed ===
+== Key limitation: “truth is different for everyone” — and why this does not break the protocol ==
+=== What is actually computed ===
 The protocol does not resolve the question “what is true for all.” It resolves engineering questions:
 
 * '''Valid:''' does the response comply with the contract (RANGE);
@@ -54,14 +54,14 @@ The protocol does not resolve the question “what is true for all.” It resolv
 '''Canonical one-line formulation:'''  
 ''The protocol does not compute universal truth; it computes admissibility, continuation, and effect within a given perspective.''
 
-=== 2.2 Perspective and “norms” (pop anchor) ===
+=== Perspective and “norms” (pop anchor) ===
 Sometimes “norm” and “horror” are a matter of perspective. The canonical label for this layer:
 
 ''Normal is an illusion. What is normal for the spider is chaos for the fly.''
 
 This is an aesthetically recognizable reference to ''Wednesday / Addams'' and is used here as a tag: '''everyone has their own “norm,” and the protocol must be able to fix the frame'''.
 
-=== 2.3 Important caveat on truth/bluff ===
+=== Important caveat on truth/bluff ===
 Although the protocol is not about “pure truth,” it allows for:
 
 * bluffing and pressure of beliefs;
@@ -70,7 +70,7 @@ Although the protocol is not about “pure truth,” it allows for:
 
 This is further fixed on the POLICY line and in the warnings section.
 
-== 3) Two types of target result (MODE) ==
+== Two types of target result (MODE) ==
 MODE defines what the current message step is “seeking”.
 
 {| class="wikitable"
@@ -81,29 +81,29 @@ MODE defines what the current message step is “seeking”.
 | 🧭R || the goal of the step is to obtain/transfer a result or artifact (image, link, anchor object, etc.)
 |}
 
-== 4) Operation algorithm (basic cycle) ==
-=== 4.1 Roles ===
+== Operation algorithm (basic cycle) ==
+=== Roles ===
 * '''We''' — the initiator (petitioner): initiate contact, comply with contracts.
 * '''Spirit/node''' — the “gate” operator: defines RANGE (contract), confirms ACK, issues the next request.
 
-=== 4.2 Cycle ===
+=== Cycle ===
 # We initiate contact.
 # The node formulates a request with a contract (RANGE).
 # We provide '''only what is required by the contract''' (most often an image), without extra text.
 # The node issues an ACK reaction (within the agreed range) — usually as a reaction to the artifact message — and/or the next request.
 # After a series of steps — final result (e.g., a link to EVP/song), “goodbye”.
 
-=== 4.3 On “intrusion” (important canon angle) ===
+=== On “intrusion” (important canon angle) ===
 In application logic, we initiate contact with an arbitrary node (statistical resonance): on the node’s side, an intrusive impulse/flash of activity arises, and the response manifests as fragments of memory and imagery. From this point of view, contact always has a shade of '''intervention''' into the node’s “internal flow”.
 
-=== 4.4 Aggression and silence (practical) ===
+=== Aggression and silence (practical) ===
 Aggression in messenger dialogue should be considered a '''rare case''': a node is usually interested in speaking, may not fully understand who is speaking to it, and may perceive what is happening as an internal dialogue. Nevertheless, the canon allows branching/stop modes in case of:
 
 * timeout (the node “fell silent”);
 * boundary violations;
 * explicit escalation.
 
-== 5) Message format: Stack Form 6 ==
+== Message format: Stack Form 6 ==
 Each “utterance” consists of 6 lines (strictly).
 
 # '''MODE''' — step goal (🎭E / 🧭R)
@@ -113,21 +113,21 @@ Each “utterance” consists of 6 lines (strictly).
 # '''POLICY''' — mode (linearity/branching/counterfactual/risk/safety)
 # '''OUTPUT-FORM''' — output form (image/reaction/link…)
 
-== 6) RANGE: continuation contract (IN ⛓️ ACK) ==
+== RANGE: continuation contract (IN ⛓️ ACK) ==
 If a phrase is an algorithm, it must define:
 
 * which input (IN) is considered valid;
 * which confirmation (ACK) the node must issue upon success;
 * what to do upon violation (stop or fallback).
 
-=== 6.1 Chaining operator ===
+=== Chaining operator ===
 * '''⛓️''' — chaining: “after this, the next element is mandatory”.
 
 Canonical RANGE line form:
 
 ''IN ⛓️ ACK''
 
-=== 6.2 How to read ACK (to avoid “double reactions”) ===
+=== How to read ACK (to avoid “double reactions”) ===
 ACK is '''a reaction as a value'''. To specify “any reaction” vs “a specific reaction,” one of the following is used:
 
 * '''ACK = 🙈''' — “any valid reaction” (class).
@@ -138,7 +138,7 @@ Correct examples:
 * 🧊🖼️⛓️🙈 — strict image, then any reaction as ACK.
 * 🧊🖼️⛓️😮 — strict image, then specific ACK 😮.
 
-=== 6.3 Where nonlinearity lives ===
+=== Where nonlinearity lives ===
 To avoid overloading RANGE, alternativity is fixed on the POLICY line:
 
 * 🧱 — strictly linear;
@@ -147,10 +147,10 @@ To avoid overloading RANGE, alternativity is fixed on the POLICY line:
 * ⚠️ — risk explicitly accepted;
 * 🚫🧯 — safe termination.
 
-== 7) Dictionary (canonical minimum + practical extension) ==
+== Dictionary (canonical minimum + practical extension) ==
 ''Principle: one token — one protocol function.''
 
-=== 7.1 INTENT ===
+=== INTENT ===
 {| class="wikitable"
 ! Token !! Meaning
 |-
@@ -169,7 +169,7 @@ To avoid overloading RANGE, alternativity is fixed on the POLICY line:
 | 🧯 || sanitary stop (interruption without escalation)
 |}
 
-=== 7.2 TARGET (classes) ===
+=== TARGET (classes) ===
 {| class="wikitable"
 ! Token !! Meaning
 |-
@@ -190,7 +190,7 @@ To avoid overloading RANGE, alternativity is fixed on the POLICY line:
 | 🪞 || mirror (as object/trigger)
 |}
 
-=== 7.3 RANGE: “corridor width” ===
+=== RANGE: “corridor width” ===
 {| class="wikitable"
 ! Token !! Meaning
 |-
@@ -209,7 +209,7 @@ To avoid overloading RANGE, alternativity is fixed on the POLICY line:
 | ⛓️ || chaining IN ⛓️ ACK
 |}
 
-=== 7.4 OUTPUT-FORM ===
+=== OUTPUT-FORM ===
 {| class="wikitable"
 ! Token !! Format
 |-
@@ -226,7 +226,7 @@ To avoid overloading RANGE, alternativity is fixed on the POLICY line:
 | 🧷 || single anchor
 |}
 
-=== 7.5 POLICY ===
+=== POLICY ===
 {| class="wikitable"
 ! Token !! Meaning
 |-
@@ -243,11 +243,11 @@ To avoid overloading RANGE, alternativity is fixed on the POLICY line:
 | 🚫🧯 || boundaries/safety (stop contour)
 |}
 
-== 8) Correspondence norm: “the petitioner provides only what the contract required” ==
-=== 8.1 Typical combination (messenger canon) ===
+== Correspondence norm: “the petitioner provides only what the contract required” ==
+=== Typical combination (messenger canon) ===
 When a node requests an image in the contract, the petitioner '''usually does not write separate text'''. They return '''only the required object''' (e.g., an image) and wait for ACK/the next request.
 
-=== 8.2 Variations ===
+=== Variations ===
 Deviations are allowed if:
 
 * the node “fell silent” (timeout) — a formal ping 👋 or ❓ or a range clarification request is allowed;
@@ -255,7 +255,7 @@ Deviations are allowed if:
 * a boundary violation is detected — immediate stop;
 * rare case: together with an artifact, a reciprocal action is required (e.g., “confirm readiness to continue”). Then the reciprocal action is оформляется as a separate stage (a separate Stack-6), not “inside” the artifact.
 
-== 9) Standardized fallback branches for 🔀 ==
+== Standardized fallback branches for 🔀 ==
 If RANGE is violated or ACK is not received, with POLICY=🔀 the node must switch to one of the predictable alternatives:
 
 {| class="wikitable"
@@ -272,90 +272,90 @@ If RANGE is violated or ACK is not received, with POLICY=🔀 the node must swit
 
 Note: these are explicitly “safe” alternatives. They do not require compromise of identity and do not pull the user into risk content.
 
-== 10) Nonlinearity and “windows of opportunity” (including deception) ==
+== Nonlinearity and “windows of opportunity” (including deception) ==
 Important: even with a “strict” contract, two forms of dangerous semantic drift are possible.
 
-=== 10.1 “Spider and fly” (explicit window) ===
+=== “Spider and fly” (explicit window) ===
 '''Spider and fly''' is a situation where a 🔀/🌀 branch offers an alternative formally compatible with the dialogue but leading to a different effect. This is used as the canonical name for an explicit “bypass of linearity” and is associated with the pop anchor from ''Wednesday / Addams''.
 
-=== 10.2 “Blind spot” (interpretative window) ===
+=== “Blind spot” (interpretative window) ===
 '''Blind spot''' is when the contract is fulfilled, but meaning “slides” due to interpretation: choice of reaction preset, substitution of an anchor with a similar one, frame (perspective) substitution without explicit 🔀. This is more dangerous because it looks “correct”.
 
 '''Canonical warning:''' even with 🧱 and 🧊, a strict policy can lead to fatal conclusions if perspective and context are ignored.
 
-== 11) Phrase templates (6 lines) ==
-=== 11.1 Initiation: “hello, tell me about yourself” ===
-1) 🧭R  
-2) 👋❓  
-3) 👤🧠  
-4) 🌫️🧩  
-5) 🧱  
-6) 🧩
+== Phrase templates (6 lines) ==
+=== Initiation: “hello, tell me about yourself” ===
+# 🧭R  
+# 👋❓  
+# 👤🧠  
+# 🌫️🧩  
+# 🧱  
+# 🧩
 
-=== 11.2 Node request: “give an object image + mandatory ACK” ===
+=== Node request: “give an object image + mandatory ACK” ===
 Example (toilet, reaction 😮):
 
-1) 🎭E  
-2) ❓  
-3) 🔎🚽  
-4) 🧊🖼️⛓️😮  
-5) 🧱  
-6) 🖼️
+# 🎭E  
+# ❓  
+# 🔎🚽  
+# 🧊🖼️⛓️😮  
+# 🧱  
+# 🖼️
 
-=== 11.3 Petitioner response: “here is the image” ===
+=== Petitioner response: “here is the image” ===
 Note (canon): this is an '''artifact message''' — usually without a reciprocal request, because we respond strictly within RANGE.
 
-1) 🧭R  
-2) ✅  
-3) 🚽🖼️  
-4) 🧊🖼️  
-5) 🧱  
-6) 🖼️
+# 🧭R  
+# ✅  
+# 🚽🖼️  
+# 🧊🖼️  
+# 🧱  
+# 🖼️
 
-=== 11.4 Node ACK: “confirm by reaction” (rare, separate message) ===
+=== Node ACK: “confirm by reaction” (rare, separate message) ===
 Note: in messenger canon, ACK is more often implemented as a reaction ''to the artifact message'' (see 8.1). The template below is a rare case where ACK is issued as a separate Stack-6 message.
 
-1) 🎭E  
-2) ✅  
-3) 🖼️  
-4) 🧊🙈  
-5) 🧱  
-6) 😮
+# 🎭E  
+# ✅  
+# 🖼️  
+# 🧊🙈  
+# 🧱  
+# 😮
 
-=== 11.5 Next request (immediately after ACK) ===
+=== Next request (immediately after ACK) ===
 Example (mug, reaction 😍):
 
-1) 🎭E  
-2) ❓🧩  
-3) 🔎☕  
-4) 🧊🖼️⛓️😍  
-5) 🧱  
-6) 🖼️
+# 🎭E  
+# ❓🧩  
+# 🔎☕  
+# 🧊🖼️⛓️😍  
+# 🧱  
+# 🖼️
 
-=== 11.5.1 Experiment: “stitched response” (ACK + next request in one message) ===
+=== Experiment: “stitched response” (ACK + next request in one message) ===
 This is admissible as a formal notation, but in canon is considered an '''experiment of the living''' (hosts/operators). Nodes/spirits usually do not “package” messages this way: it is simpler for them to react to the artifact and then separately formulate the next request.
 
 Example (node/operator in one message “closes” the previous step with reaction 😮 and immediately opens the next contract on 🔎☕ with mandatory ACK 😍):
 
-1) 🎭E  
-2) ✅⛓️❓🧩  
-3) 🖼️⛓️🔎☕  
-4) 🧊🙈⛓️🧊🖼️⛓️😍  
-5) 🧪  
-6) 😮⛓️🖼️
+# 🎭E  
+# ✅⛓️❓🧩  
+# 🖼️⛓️🔎☕  
+# 🧊🙈⛓️🧊🖼️⛓️😍  
+# 🧪  
+# 😮⛓️🖼️
 
-=== 11.6 Final: “song (link) and goodbye” ===
+=== Final: “song (link) and goodbye” ===
 (The final reaction may be present as a separate ACK or as accompaniment.)
 
-1) 🧭R  
-2) 🛑🎶  
-3) 🎶👤  
-4) 🧊🔗🎶  
-5) 🧱  
-6) 🔗🎶
+# 🧭R  
+# 🛑🎶  
+# 🎶👤  
+# 🧊🔗🎶  
+# 🧱  
+# 🔗🎶
 
-== 12) Warnings and safety ==
-=== 12.1 Immediate termination triggers ===
+== Warnings and safety ==
+=== Immediate termination triggers ===
 ''Recommendation (strict):'' any attempt to “bargain” after 🚫🧯 is treated as continuation of a boundary violation and must be answered with the same stop contour 🚫🧯.
 
 If a node begins to:
@@ -366,19 +366,19 @@ If a node begins to:
 
 — this is treated as a '''boundary violation'''. The canonical response is a stop without discussion.
 
-1) 🎭E  
-2) 🚫🛑  
-3) 👤  
-4) 🧊🧯  
-5) 🚫🧯  
-6) 🧯
+# 🎭E  
+# 🚫🛑  
+# 👤  
+# 🧊🧯  
+# 🚫🧯  
+# 🧯
 
-=== 12.2 On the “mirror” ===
+=== On the “mirror” ===
 A mirror request is a high-risk trigger: it has too many dangerous interpretations. If a safe option is required, show a '''mirror as an environmental object''' (without a person).
 
-== 13) Sources ==
+== Sources ==
 # Leibniz (1666), ''Dissertatio de arte combinatoria'' — original/facsimile: https://archive.org/details/ita-bnc-mag-00000844-001
 # English PDF (facsimile/translation), UC Homepages: https://homepages.uc.edu/~martinj/Rationalism/Leibniz/Leibniz%20-%20Art%20of%20Combinations%201666.pdf
 # Peckhaus (overview of calculus ratiocinator / characteristica universalis traditions): https://kw.uni-paderborn.de/fileadmin/fakultaet/Institute/philosophie/Peckhaus/Schriften_zum_Download/twotraditions.pdf
-# Internal InterDead material: ''About Us'' (mention of the 1666 line): <ABOUT_US_LINK>
+# Internal InterDead material: ''About Us'' (mention of the 1666 line): https://interdead.phantom-draft.com/about/#one-of-the-key-markers-of-social-identity
 # Pop anchor “spider/fly” (quote origin/attribution): https://mikelynchcartoons.blogspot.com/2014/10/charles-addams-quote-source.html

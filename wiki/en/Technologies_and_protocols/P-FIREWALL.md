@@ -1,6 +1,8 @@
 [^clean]: Clean version: https://interdead.fandom.com/wiki/P-FIREWALL
 [^clean]
 
+__TOC__
+
 == P-FIREWALL ==
 
 === Purpose ===
