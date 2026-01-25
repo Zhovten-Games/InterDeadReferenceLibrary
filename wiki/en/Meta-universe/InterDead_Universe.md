@@ -11,7 +11,7 @@ The InterDead project develops as an authorial universe of Zhovten Games studio.
 * materials and observations obtained during TTRPG sessions are used to refine and develop the canon;
 * decisions regarding fixation and formulation of canonical elements are made by the project authors.
 
-The InterDead world is described rather strictly from a technical perspective (nexthosphere, mainlines, protocols, InterDead application). The canon is considered evolving in the sense that its foundational framework is already defined, while further work focuses on clarifying connections, consequences, and formulations arising from practical model usage.
+The InterDead world is described rather strictly from a technical perspective (nectosphere, mainlines, protocols, InterDead application). The canon is considered evolving in the sense that its foundational framework is already defined, while further work focuses on clarifying connections, consequences, and formulations arising from practical model usage.
 
 At present, sections primarily open for free public editing are those related to:
 
@@ -32,7 +32,7 @@ Its focus includes:
 
 In InterDead, this is constructed atop:
 
-* languages and sign systems (emoji, universal language attempts, nexthospheric protocols);
+* languages and sign systems (emoji, universal language attempts, nectospheric protocols);
 * psychologically oriented fear models (PsiFramework, EFBD — Echoed Big Five of Dread);
 * techno-lore of an experimental application for communicating with the dead.
 

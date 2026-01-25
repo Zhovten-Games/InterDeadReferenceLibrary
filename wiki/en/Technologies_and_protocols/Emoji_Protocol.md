@@ -1,11 +1,10 @@
-= InterDead — Emoji Protocol (Canon) =
-'''Version:''' 0.3 (Stack Form 6 + continuation contract)  
-'''Status:''' canon (descriptive), not a “mandatory implementation”
+[^clean]: Clean version: https://interdead.fandom.com/uk/wiki/Emoji_Protocol
+[^clean]
 
 == Preface ==
 This protocol emerged from an essay-style interpretation of the Leibnizian line (1666) concerning the “art of combinations” and the hope for a universal formal notation of reasoning. At the same time, its existence demonstrates the practical limit of that original dream: in living communication, it is impossible to “compute a universal truth,” because meaning and “norm” depend on perspective and context.
 
-In practice, any attempt at formalization inevitably turns into '''contracts''':
+In practice, any attempt at formalization inevitably turns into contracts:
 
 * a message defines ''which response is admissible'' (RANGE);
 * ''which confirmation'' (ACK) is considered successful;
@@ -18,27 +17,27 @@ For this reason, the protocol requires discipline: one must read the contract ca
 Responsibility addendum: the messenger/protocol records only recommended rules for safe operation. Any deviations from the rules, “bargaining” with a node, or deliberate expansion of contracts are performed at the user’s/host’s own risk; the system does not assume responsibility for the consequences.
 
 == Purpose (application only) ==
-The Emoji Protocol is an '''executable dialogue protocol''': a message defines a '''contract''' (what is admissible as a response), and continuation of the conversation is determined by '''validity''' of the response and confirmation via an '''ACK reaction'''.
+The Emoji Protocol is an executable dialogue protocol: a message defines a contract (what is admissible as a response), and continuation of the conversation is determined by validity of the response and confirmation via an ACK reaction.
 
 Within the InterDead application, the protocol is used for:
 
-* establishing single or serial contacts with arbitrary nexthosphere nodes;
+* establishing single or serial contacts with arbitrary nectosphere nodes;
 * obtaining fragments of node memory through emoji exchange;
 * basic user safety via signal masking (stealth) modes and prohibition of direct “exposure” in user builds.
 
-''Important note on “brightness,” “intensity,” and “audio boosters”:'' any signal regulators (increase of node visibility, “brightness boost,” amplification/exposure) belong to the '''application implementation layer''' (stealth/exposure modules, node “brightness” control) and '''are not part of the language'''. They are not included in the dictionary: chat/dialogue cannot “push” a node beyond permitted limits.
+''Important note on “brightness,” “intensity,” and “audio boosters”:'' any signal regulators (increase of node visibility, “brightness boost,” amplification/exposure) belong to the application implementation layer (stealth/exposure modules, node “brightness” control) and are not part of the language. They are not included in the dictionary: chat/dialogue cannot “push” a node beyond permitted limits.
 
 == Historical foundation: Leibniz (1666) ==
-The foundation is the Leibnizian idea of '''symbolic notation and procedurality''':
+The foundation is the Leibnizian idea of symbolic notation and procedurality:
 
 * the complex is expressed through combinations of simple signs;
 * order/position of elements matters (not only “what,” but “how it is arranged”);
 * dispute/action is translated into operations by rules, not rhetoric.
 
-However, our interpretation is fundamentally '''applied''':
+However, our interpretation is fundamentally applied:
 
 * we do not promise to compute “universal truth”;
-* we compute '''admissibility, continuation, and effect''' within a given perspective.
+* we compute admissibility, continuation, and effect within a given perspective.
 
 ''Reference to notes/research (insert URL):''
 * https://github.com/Zhovten-Games/InterDeadReferenceLibrary/blob/411862566823967fc78ee04bf9833eea17694d4f/research/leibniz_1666_conspect/Leibniz%20(1666)%20-%20a%20glossary%20of%20source%20terms%20and%20a%20brief%20explanation.md
@@ -59,7 +58,7 @@ Sometimes “norm” and “horror” are a matter of perspective. The canonical
 
 ''Normal is an illusion. What is normal for the spider is chaos for the fly.''
 
-This is an aesthetically recognizable reference to ''Wednesday / Addams'' and is used here as a tag: '''everyone has their own “norm,” and the protocol must be able to fix the frame'''.
+This is an aesthetically recognizable reference to ''Wednesday / Addams'' and is used here as a tag: everyone has their own “norm,” and the protocol must be able to fix the frame.
 
 === Important caveat on truth/bluff ===
 Although the protocol is not about “pure truth,” it allows for:
@@ -76,7 +75,7 @@ MODE defines what the current message step is “seeking”.
 {| class="wikitable"
 ! Token !! Meaning
 |-
-| 🎭E || the goal of the step is to evoke/fix an emotion or state '''within the specified range''' (or obtain an emotional ACK)
+| 🎭E || the goal of the step is to evoke/fix an emotion or state within the specified range (or obtain an emotional ACK)
 |-
 | 🧭R || the goal of the step is to obtain/transfer a result or artifact (image, link, anchor object, etc.)
 |}
@@ -89,15 +88,15 @@ MODE defines what the current message step is “seeking”.
 === Cycle ===
 # We initiate contact.
 # The node formulates a request with a contract (RANGE).
-# We provide '''only what is required by the contract''' (most often an image), without extra text.
+# We provide only what is required by the contract (most often an image), without extra text.
 # The node issues an ACK reaction (within the agreed range) — usually as a reaction to the artifact message — and/or the next request.
 # After a series of steps — final result (e.g., a link to EVP/song), “goodbye”.
 
 === On “intrusion” (important canon angle) ===
-In application logic, we initiate contact with an arbitrary node (statistical resonance): on the node’s side, an intrusive impulse/flash of activity arises, and the response manifests as fragments of memory and imagery. From this point of view, contact always has a shade of '''intervention''' into the node’s “internal flow”.
+In application logic, we initiate contact with an arbitrary node (statistical resonance): on the node’s side, an intrusive impulse/flash of activity arises, and the response manifests as fragments of memory and imagery. From this point of view, contact always has a shade of intervention into the node’s “internal flow”.
 
 === Aggression and silence (practical) ===
-Aggression in messenger dialogue should be considered a '''rare case''': a node is usually interested in speaking, may not fully understand who is speaking to it, and may perceive what is happening as an internal dialogue. Nevertheless, the canon allows branching/stop modes in case of:
+Aggression in messenger dialogue should be considered a rare case: a node is usually interested in speaking, may not fully understand who is speaking to it, and may perceive what is happening as an internal dialogue. Nevertheless, the canon allows branching/stop modes in case of:
 
 * timeout (the node “fell silent”);
 * boundary violations;
@@ -128,7 +127,7 @@ Canonical RANGE line form:
 ''IN ⛓️ ACK''
 
 === How to read ACK (to avoid “double reactions”) ===
-ACK is '''a reaction as a value'''. To specify “any reaction” vs “a specific reaction,” one of the following is used:
+ACK is a reaction as a value. To specify “any reaction” vs “a specific reaction,” one of the following is used:
 
 * '''ACK = 🙈''' — “any valid reaction” (class).
 * '''ACK = 😮''' — “a strictly specific reaction” (preset value).
@@ -245,7 +244,7 @@ To avoid overloading RANGE, alternativity is fixed on the POLICY line:
 
 == Correspondence norm: “the petitioner provides only what the contract required” ==
 === Typical combination (messenger canon) ===
-When a node requests an image in the contract, the petitioner '''usually does not write separate text'''. They return '''only the required object''' (e.g., an image) and wait for ACK/the next request.
+When a node requests an image in the contract, the petitioner usually does not write separate text. They return only the required object (e.g., an image) and wait for ACK/the next request.
 
 === Variations ===
 Deviations are allowed if:
@@ -276,10 +275,10 @@ Note: these are explicitly “safe” alternatives. They do not require compromi
 Important: even with a “strict” contract, two forms of dangerous semantic drift are possible.
 
 === “Spider and fly” (explicit window) ===
-'''Spider and fly''' is a situation where a 🔀/🌀 branch offers an alternative formally compatible with the dialogue but leading to a different effect. This is used as the canonical name for an explicit “bypass of linearity” and is associated with the pop anchor from ''Wednesday / Addams''.
+Spider and fly is a situation where a 🔀/🌀 branch offers an alternative formally compatible with the dialogue but leading to a different effect. This is used as the canonical name for an explicit “bypass of linearity” and is associated with the pop anchor from ''Wednesday / Addams''.
 
 === “Blind spot” (interpretative window) ===
-'''Blind spot''' is when the contract is fulfilled, but meaning “slides” due to interpretation: choice of reaction preset, substitution of an anchor with a similar one, frame (perspective) substitution without explicit 🔀. This is more dangerous because it looks “correct”.
+Blind spot is when the contract is fulfilled, but meaning “slides” due to interpretation: choice of reaction preset, substitution of an anchor with a similar one, frame (perspective) substitution without explicit 🔀. This is more dangerous because it looks “correct”.
 
 '''Canonical warning:''' even with 🧱 and 🧊, a strict policy can lead to fatal conclusions if perspective and context are ignored.
 
@@ -303,7 +302,7 @@ Example (toilet, reaction 😮):
 # 🖼️
 
 === Petitioner response: “here is the image” ===
-Note (canon): this is an '''artifact message''' — usually without a reciprocal request, because we respond strictly within RANGE.
+Note (canon): this is an 'artifact message — usually without a reciprocal request, because we respond strictly within RANGE.
 
 # 🧭R  
 # ✅  
@@ -313,7 +312,7 @@ Note (canon): this is an '''artifact message''' — usually without a reciprocal
 # 🖼️
 
 === Node ACK: “confirm by reaction” (rare, separate message) ===
-Note: in messenger canon, ACK is more often implemented as a reaction ''to the artifact message'' (see 8.1). The template below is a rare case where ACK is issued as a separate Stack-6 message.
+Note: in messenger canon, ACK is more often implemented as a reaction ''to the artifact message'' (see ''Typical combination — messenger canon''). The template below is a rare case where ACK is issued as a separate Stack-6 message.
 
 # 🎭E  
 # ✅  
@@ -333,7 +332,7 @@ Example (mug, reaction 😍):
 # 🖼️
 
 === Experiment: “stitched response” (ACK + next request in one message) ===
-This is admissible as a formal notation, but in canon is considered an '''experiment of the living''' (hosts/operators). Nodes/spirits usually do not “package” messages this way: it is simpler for them to react to the artifact and then separately formulate the next request.
+This is admissible as a formal notation, but in canon is considered an experiment of the living (hosts/operators). Nodes/spirits usually do not “package” messages this way: it is simpler for them to react to the artifact and then separately formulate the next request.
 
 Example (node/operator in one message “closes” the previous step with reaction 😮 and immediately opens the next contract on 🔎☕ with mandatory ACK 😍):
 
@@ -364,7 +363,7 @@ If a node begins to:
 * insistently request mirror photos;
 * demand personal data;
 
-— this is treated as a '''boundary violation'''. The canonical response is a stop without discussion.
+— this is treated as a boundary violation. The canonical response is a stop without discussion.
 
 # 🎭E  
 # 🚫🛑  
@@ -374,7 +373,7 @@ If a node begins to:
 # 🧯
 
 === On the “mirror” ===
-A mirror request is a high-risk trigger: it has too many dangerous interpretations. If a safe option is required, show a '''mirror as an environmental object''' (without a person).
+A mirror request is a high-risk trigger: it has too many dangerous interpretations. If a safe option is required, show a mirror as an environmental object (without a person).
 
 == Sources ==
 # Leibniz (1666), ''Dissertatio de arte combinatoria'' — original/facsimile: https://archive.org/details/ita-bnc-mag-00000844-001
@@ -382,3 +381,4 @@ A mirror request is a high-risk trigger: it has too many dangerous interpretatio
 # Peckhaus (overview of calculus ratiocinator / characteristica universalis traditions): https://kw.uni-paderborn.de/fileadmin/fakultaet/Institute/philosophie/Peckhaus/Schriften_zum_Download/twotraditions.pdf
 # Internal InterDead material: ''About Us'' (mention of the 1666 line): https://interdead.phantom-draft.com/about/#one-of-the-key-markers-of-social-identity
 # Pop anchor “spider/fly” (quote origin/attribution): https://mikelynchcartoons.blogspot.com/2014/10/charles-addams-quote-source.html
+[[Category:Technologies and protocols]]

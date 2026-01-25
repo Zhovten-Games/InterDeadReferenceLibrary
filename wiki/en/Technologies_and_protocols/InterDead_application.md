@@ -9,7 +9,7 @@ The application is considered an access and filtering interface rather than a me
 
 === Core declared objectives ===
 
-* establishing one-time or serial contacts with arbitrary [[Nectosphere_node|nexthospheric nodes]];
+* establishing one-time or serial contacts with arbitrary [[Nectosphere_node|nectospheric nodes]];
 * obtaining memory fragments, responses, and interaction outcomes through formalized protocols;
 * ensuring the safety of the living user via continuous signal masking.
 
@@ -21,10 +21,10 @@ The application is considered an access and filtering interface rather than a me
 
 == Emoji Protocol ==
 
-The Emoji Protocol is a supralinguistic interaction protocol with the nexthosphere, based on meaning formalization through a limited set of symbols.
+The Emoji Protocol is a supralinguistic interaction protocol with the nectosphere, based on meaning formalization through a limited set of symbols.
 
 * emoji sequences are transformed into a semantic vector;
-* the vector is projected into the nexthosphere;
+* the vector is projected into the nectosphere;
 * the node with the highest profile match is selected.
 
 Reasons for choosing emoji:
@@ -60,13 +60,13 @@ This explains:
 
 == Stealth mode ==
 
-Stealth mode is the **only and mandatory** operational mode of the application.
+Stealth mode is the only and mandatory operational mode of the application.
 
 Technical features:
 
 * emotional-semantic request profiles are fragmented and smoothed;
 * the signal is masked as background activity;
-* the source is not perceived by the nexthosphere as a significant node.
+* the source is not perceived by the nectosphere as a significant node.
 
 Consequences:
 
@@ -74,12 +74,12 @@ Consequences:
 * proxying of interactions through remote segments;
 * reduced likelihood of sustained “reverse interest” from nodes.
 
-No additional or “enhanced” stealth modes are предусмотрено.
+No additional or “enhanced” stealth modes are not provided.
 
 == Interaction protocol (simplified) ==
 
 # The user formulates a request (most often as an emoji sequence).
-# The request is converted into a semantic vector and projected into the nexthosphere.
+# The request is converted into a semantic vector and projected into the nectosphere.
 # The node with the highest profile match is selected.
 # Response activity arises on the node side.
 # The response may be received:
@@ -92,7 +92,7 @@ The response format is determined by accumulated context and emoji protocol rule
 
 == Artifacts ==
 
-In some sessions, interaction results in an **artifact** — a linked object recorded in an acceptable form:
+In some sessions, interaction results in an artifact — a linked object recorded in an acceptable form:
 
 * image;
 * audio fragment;
@@ -115,15 +115,15 @@ The following concepts are not mandatory protocol components but are used to int
 
 === Residual synchronization ===
 
-A hypothesis of temporary bidirectional linkage between consciousness configuration in the nexthosphere and living digital services.
+A hypothesis of temporary bidirectional linkage between consciousness configuration in the nectosphere and living digital services.
 
-Considered a model within [[Techno-Theory]].
+Considered a model within [[Techno-theories]].
 
 === Postmortem interface emulation ==
 
-A concept describing potential reproduction of interfaces familiar to a personality during life within the nexthosphere.
+A concept describing potential reproduction of interfaces familiar to a personality during life within the nectosphere.
 
-Theoretical aspects are presented in [[Techno-Theory]].
+Theoretical aspects are presented in [[Techno-theories]].
 
 === AI assistant ===
 

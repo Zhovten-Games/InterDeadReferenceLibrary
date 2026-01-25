@@ -27,8 +27,8 @@ InterDead is a psychologically oriented horror game in development by [https://w
 === Technogenic phenomena and incidents ===
 [[:Category:Technogenic phenomena and incidents|'''Category: Technogenic phenomena and incidents''']]
 
-* [[Mainline_case]] – historical British case of a house on a mainline intersection.
-* [[Incident_P-01]] – Japanese “impulse breakthrough” and near-global collapse.
+* [[Mainline_case]] – under the name “Mainline Case,” early materials grouped together a set of heterogeneous testimonies related to so-called bad places — zones where intersections of nectosphere mainlines manifest in a distorted and unstable form.
+* [[Incident_P-01]] – refers to an early technogenic experiment of the early 2000s, during which a partial topological correlation was recorded between an experimental communication network and the structures of the Nectosphere.
 * [[Port]] – border point between a living body and the nectosphere.
 * [[Return_corridor]] – hypothetical channel between a nectosphere node and a port.
 

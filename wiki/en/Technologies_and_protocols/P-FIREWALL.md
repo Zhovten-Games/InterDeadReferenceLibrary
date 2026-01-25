@@ -7,15 +7,15 @@ __TOC__
 
 === Purpose ===
 
-P-FIREWALL is a multi-layered protective perimeter designed to filter and attenuate traffic between the nexthosphere and technonetworks.
+P-FIREWALL is a multi-layered protective perimeter designed to filter and attenuate traffic between the nectosphere and technonetworks.
 
-It was [[Incident P-01|introduced after P-01]] and aims to reduce the risks of uncontrolled penetration of nexthospheric patterns into digital environments.
+It was [[Incident P-01|introduced after P-01]] and aims to reduce the risks of uncontrolled penetration of nectospheric patterns into digital environments.
 
 === Functions ===
 
 P-FIREWALL performs the following tasks:
 
-* filtering traffic between the nexthosphere and network infrastructures;
+* filtering traffic between the nectosphere and network infrastructures;
 * automatic detection and attenuation of channels corresponding to stable metaphysical patterns;
 * degradation or blurring of hazardous interaction forms.
 
@@ -29,7 +29,7 @@ From a technical perspective, P-FIREWALL relies on generalized network security 
 * application gateways and DPI;
 * mass filtering and traffic segmentation infrastructures.
 
-Additionally, a nexthospheric analysis layer is introduced, taking into account:
+Additionally, a nectospheric analysis layer is introduced, taking into account:
 
 * not only packet headers and payloads, but also accompanying stable patterns;
 * metadata, behavioral characteristics, and indirect channel indicators;

@@ -4,7 +4,7 @@
 == Techno-theories ==
 
 === Residual synchronisation ===
-<u>Residual synchronisation</u> is a hypothetical temporary two-way link between:
+Residual synchronisation is a hypothetical temporary two-way link between:
 
 * the post-mortem configuration of consciousness in the nectosphere;
 * and live servers of the application/AI or other digital services that still function.
@@ -32,7 +32,7 @@ Potential consequences:
 It is still considered a model that requires special conditions and ethically controversial protocols for verification.
 
 === Post-mortem interface emulation ===
-<u>Post-mortem interface emulation</u> describes the theoretical process by which interfaces familiar to a personality are reproduced in the nectosphere.
+Post-mortem interface emulation describes the theoretical process by which interfaces familiar to a personality are reproduced in the nectosphere.
 
 Presumed mechanism:
 
@@ -65,5 +65,4 @@ All these scenarios are currently described as theoretical and depend on many as
 * the depth of integration of AI into the subject’s life;
 * the architecture of a particular assistant;
 * data access policy and limitations on experimental protocols.
-
 [[Category:Theories and models]]

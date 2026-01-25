@@ -5,7 +5,7 @@ __TOC__
 
 == Overview ==
 
-Under the name “Mainline Case,” early materials grouped together a set of heterogeneous testimonies related to so-called bad places — zones where intersections of nexthosphere mainlines manifest in a distorted and unstable form.
+Under the name “Mainline Case,” early materials grouped together a set of heterogeneous testimonies related to so-called bad places — zones where intersections of [[Nectosphere|nectosphere]] mainlines manifest in a distorted and unstable form.
 
 Contemporary analysis shows that such cases do not represent a singular or unique phenomenon. On the contrary, dozens of reports of a similar type have been recorded, most of which were later classified as:
 

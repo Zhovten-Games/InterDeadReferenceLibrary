@@ -25,6 +25,6 @@ Early reports indicated severe social consequences; however, subsequent data rev
 
 The incident is officially considered localized, but it:
 
-* demonstrated the fundamental possibility of coupling network technologies with nexthospheric structures;
+* demonstrated the fundamental possibility of coupling network technologies with nectospheric structures;
 * served as the basis for the development and implementation of second-level protective protocols, later formalized as [[P-FIREWALL]].
 [[Category:Technogenic phenomena and incidents]]
