@@ -1,4 +1,4 @@
-[^clean]: https://interdead.fandom.com/ru/wiki/Emoji_Protocol
+[^clean]: Clean version: https://interdead.fandom.com/ru/wiki/Emoji_Protocol
 [^clean]
 
 == Предисловие ==

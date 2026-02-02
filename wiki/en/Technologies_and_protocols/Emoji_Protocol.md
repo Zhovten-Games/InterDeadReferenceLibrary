@@ -1,4 +1,4 @@
-[^clean]: Clean version: https://interdead.fandom.com/uk/wiki/Emoji_Protocol
+[^clean]: Clean version: https://interdead.fandom.com/wiki/Emoji_Protocol
 [^clean]
 
 == Preface ==

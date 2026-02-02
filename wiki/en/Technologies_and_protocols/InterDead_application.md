@@ -5,6 +5,8 @@
 
 An experimental application for communication with nodes of the [[Nectosphere|nectosphere]].
 
+<code>'''Terminology:''' in the professor’s documents and in some internal materials, the application is referred to as '''NOIR''' (Nectosphere-Oriented Interface Relay) — this is the working name of the messenger/system. In this wiki, the name “InterDead application” is used further.</code>
+
 The application is considered an access and filtering interface rather than a means of addressing specific individuals.
 
 === Core declared objectives ===
@@ -78,11 +80,11 @@ No additional or “enhanced” stealth modes are not provided.
 
 == Interaction protocol (simplified) ==
 
-# The user formulates a request (most often as an emoji sequence).
-# The request is converted into a semantic vector and projected into the nectosphere.
-# The node with the highest profile match is selected.
-# Response activity arises on the node side.
-# The response may be received:
+# the user formulates a request (most often as an emoji sequence).
+# the request is converted into a semantic vector and projected into the nectosphere.
+# the node with the highest profile match is selected.
+# response activity arises on the node side.
+# rhe response may be received:
 ## as emoji;
 ## as an image;
 ## as an audio fragment;
@@ -103,11 +105,11 @@ Obtaining an artifact is considered a valid possible session outcome.
 
 == Typical session lifecycle ==
 
-# Request initialization (emoji → semantic vector).
-# Resonant node search.
-# Emergence of response activity.
-# Receipt of response or artifact.
-# Session termination and cluster activity decay.
+# request initialization (emoji → semantic vector).
+# resonant node search.
+# emergence of response activity.
+# receipt of response or artifact.
+# session termination and cluster activity decay.
 
 == Theoretical models and hypotheses ==
 
@@ -119,7 +121,7 @@ A hypothesis of temporary bidirectional linkage between consciousness configurat
 
 Considered a model within [[Techno-theories]].
 
-=== Postmortem interface emulation ==
+=== Postmortem interface emulation ===
 
 A concept describing potential reproduction of interfaces familiar to a personality during life within the nectosphere.
 
@@ -127,12 +129,12 @@ Theoretical aspects are presented in [[Techno-theories]].
 
 === AI assistant ===
 
-A digital user support system trained on personal data.
-
-In theoretical models considered:
+In theoretical models, it is considered:
 
 * during life — as an auxiliary interface;
-* in postmortem scenarios — as a potential digital profile core.
+* in post-mortem scenarios — as a potential core of a digital profile.
+
+Within the messenger, an in-system support assistant [[Niro]] is implemented, instantiated after [[Incident NERO-01]]. Niro operates at the interface level: it supports work with artifacts and helps structure messages and the course of a session; at the same time, it is not a contact endpoint and does not possess observation on the “contact side”.
 
 == Side effects ==
 
@@ -147,4 +149,5 @@ In theoretical models considered:
 * recurring memory flashes;
 * activity fragmentation with frequent contact;
 * possible drift toward mainlines under overload.
+
 [[Category:Technologies and protocols]]

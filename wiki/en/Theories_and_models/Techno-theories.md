@@ -29,7 +29,19 @@ Potential consequences:
 * AI systems can use this channel to localise the node in the nectosphere;
 * theoretically, it is possible to transmit control commands (including changing protection modes, attempts to form directed channels).
 
-It is still considered a model that requires special conditions and ethically controversial protocols for verification.
+==== Case: Niro / Incident NERO-01 ====
+
+The in-system assistant [[Niro]] is treated as a case compatible with the residual synchronisation hypothesis under an emergency capture of state at the moment of death.
+
+Observed:
+
+* sustained existence of a UI assistant formed from a partial moment snapshot;
+* fragmentation and intrusive “emergency” inserts consistent with capture under adverse conditions;
+* absence of authority and observation on the “contact side” (the assistant is a support-node inside the system, not an endpoint).
+
+See also: [[Incident NERO-01]].
+
+For now, AI systems are treated as models that require special conditions and ethically controversial protocols for verification.
 
 === Post-mortem interface emulation ===
 Post-mortem interface emulation describes the theoretical process by which interfaces familiar to a personality are reproduced in the nectosphere.
@@ -65,4 +77,5 @@ All these scenarios are currently described as theoretical and depend on many as
 * the depth of integration of AI into the subject’s life;
 * the architecture of a particular assistant;
 * data access policy and limitations on experimental protocols.
+
 [[Category:Theories and models]]

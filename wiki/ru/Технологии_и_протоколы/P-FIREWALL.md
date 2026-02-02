@@ -1,4 +1,4 @@
-[^clean]: Clean version: https://https://interdead.fandom.com/ru/wiki/P-FIREWALL
+[^clean]: Clean version: https://interdead.fandom.com/ru/wiki/P-FIREWALL
 [^clean]
 
 == P-FIREWALL ==

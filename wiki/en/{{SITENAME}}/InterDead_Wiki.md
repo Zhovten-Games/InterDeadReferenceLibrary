@@ -29,6 +29,7 @@ InterDead is a psychologically oriented horror game in development by [https://w
 
 * [[Mainline_case]] – under the name “Mainline Case,” early materials grouped together a set of heterogeneous testimonies related to so-called bad places — zones where intersections of nectosphere mainlines manifest in a distorted and unstable form.
 * [[Incident_P-01]] – refers to an early technogenic experiment of the early 2000s, during which a partial topological correlation was recorded between an experimental communication network and the structures of the Nectosphere.
+* [[Incident NERO-01]] – emergency capture of a moment snapshot and instantiation of the in-system assistant Niro.
 * [[Port]] – border point between a living body and the nectosphere.
 * [[Return_corridor]] – hypothetical channel between a nectosphere node and a port.
 
@@ -37,10 +38,12 @@ InterDead is a psychologically oriented horror game in development by [https://w
 === Technologies and protocols ===
 [[:Category:Technologies and protocols|'''Category: Technologies and protocols''']]
 
-* [[P-FIREWALL]] – global metaphysical firewall built on top of classic network stacks.
-* [[InterDead_application]] – experimental client for contacting the dead (emoji protocol, stealth / exposure).
-** [[Emoji_Protocol]] – is an executable dialogue protocol: a message defines a contract (what is admissible as a response), and continuation of the conversation is determined by validity of the response and confirmation via an ACK reaction.
+* [[P-FIREWALL]] – is an global metaphysical firewall built on top of classic network stacks.
+* [[InterDead_application]] – is an experimental client for contact with the dead (emoji protocol, stealth / exposure). In the professor’s documents and in some internal materials, the application is referred to as '''NOIR''' (Nectosphere-Oriented Interface Relay) — this is the working name of the messenger/system.
+** [[Emoji_Protocol]] – is an executable dialogue protocol: a message defines the contract (what is admissible as a response), and the continuation of the conversation is determined by response validity and confirmation via an ACK reaction.
+** [[Niro]] – is an in-system support assistant in the messenger, instantiated after Incident NERO-01 on the basis of an emergency capture of a partial moment snapshot.
 <code>'''Tip:'''  For technical deep dives into how the application works, see: [[InterDead application#InterDead application documentation (short technical specification)|'''InterDead application documentation (short technical specification)''']].</code>
+
 ----
 
 === Theories and models ===

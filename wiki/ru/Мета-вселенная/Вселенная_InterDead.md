@@ -1,4 +1,4 @@
-[^clean]: Clean version: https://https://interdead.fandom.com/ru/wiki/%D0%92%D1%81%D0%B5%D0%BB%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_InterDead
+[^clean]: Clean version: https://interdead.fandom.com/ru/wiki/%D0%92%D1%81%D0%B5%D0%BB%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_InterDead
 [^clean]
 
 InterDead — разрабатываемая психологически ориентированная хоррор-игра студии [[https://www.linkedin.com/company/zhovten-games/](https://www.linkedin.com/company/zhovten-games/) Zhovten Games] с интерфейсом визуальной новеллы и настольными ролевыми сессиями (НРИ), составляющая ядро одноимённой мета-вселенной.
