@@ -108,6 +108,7 @@ Obtaining an artifact is considered a valid possible session outcome.
 # request initialization (emoji → semantic vector).
 # resonant node search.
 # emergence of response activity.
+# (Optional, situational) if a request implies image capture but admissibility is unclear, an intermediate consent/acknowledgement step may be introduced to clarify whether image transmission is acceptable.
 # receipt of response or artifact.
 # session termination and cluster activity decay.
 

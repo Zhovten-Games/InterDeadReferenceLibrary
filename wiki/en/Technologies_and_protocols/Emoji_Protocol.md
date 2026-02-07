@@ -39,7 +39,7 @@ However, our interpretation is fundamentally applied:
 * we do not promise to compute “universal truth”;
 * we compute admissibility, continuation, and effect within a given perspective.
 
-''Reference to notes/research (insert URL):''
+''Reference to notes/research:''
 * https://github.com/Zhovten-Games/InterDeadReferenceLibrary/blob/411862566823967fc78ee04bf9833eea17694d4f/research/leibniz_1666_conspect/Leibniz%20(1666)%20-%20a%20glossary%20of%20source%20terms%20and%20a%20brief%20explanation.md
 
 == Key limitation: “truth is different for everyone” — and why this does not break the protocol ==
@@ -88,9 +88,12 @@ MODE defines what the current message step is “seeking”.
 === Cycle ===
 # We initiate contact.
 # The node formulates a request with a contract (RANGE).
+# (Optional, situational) If the request implies image capture but the admissibility is unclear, the petitioner may introduce an intermediate consent/acknowledgement step to clarify whether image transmission is acceptable.
 # We provide only what is required by the contract (most often an image), without extra text.
 # The node issues an ACK reaction (within the agreed range) — usually as a reaction to the artifact message — and/or the next request.
 # After a series of steps — final result (e.g., a link to EVP/song), “goodbye”.
+
+Note: The consent step is not mandatory and must not be used to expand the contract. It exists solely to resolve ambiguity before sending an image.
 
 === On “intrusion” (important canon angle) ===
 In application logic, we initiate contact with an arbitrary node (statistical resonance): on the node’s side, an intrusive impulse/flash of activity arises, and the response manifests as fragments of memory and imagery. From this point of view, contact always has a shade of intervention into the node’s “internal flow”.
