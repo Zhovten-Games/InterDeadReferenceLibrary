@@ -6,6 +6,8 @@
 ║   Public reference library: documents and notes that are safe       ║
 ║   to share outside the private workspace.                           ║
 ║                                                                     ║
+║ ○ <a href="https://github.com/Zhovten-Games/InterDeadProto">InterDeadProto (NOIR)</a>                                             ║
+║                                                                     ║
 ║ ○ <a href="https://github.com/Zhovten-Games/InterDeadIT">InterDeadIT</a> (website / entry point)                               ║
 ║   The website: the public entry point into the InterDead meta-verse.║
 ║   Hosts the “About” and related public-facing materials.            ║
