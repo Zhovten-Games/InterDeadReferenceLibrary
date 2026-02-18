@@ -1,0 +1,234 @@
+{
+  "inputs": {
+    "background": "bg.webp",
+    "audio": "input.mp3",
+    "emojiPackId": "twemoji-72x72",
+    "emojiOverrideDir": null
+  },
+  "safeArea": {
+    "width": 1000,
+    "offsetX": 0,
+    "paddingLeft": 0
+  },
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 30,
+    "crf": 20
+  },
+  "layout": {
+    "emojiSize": 72,
+    "gap": 8,
+    "topMargin": 60,
+    "centerY": null,
+    "offsetY": 0
+  },
+  "render": {
+    "mode": "ffmpeg_overlays",
+    "tmpDir": "out/.tmp_frames"
+  },
+  "output": {
+    "file": "out/final.mp4"
+  },
+  "cues": [
+  {
+    "start": 20.0,
+    "end": 22.827,
+    "text": "👶😴🎶",
+    "typingDuration": 3.0
+  },
+  {
+    "start": 22.888,
+    "end": 24.992,
+    "text": "⚰️💀🕯️",
+    "typingDuration": 1.0
+  },
+  {
+    "start": 27.166,
+    "end": 29.75,
+    "text": "⚰️💀🕯️",
+    "typingDuration": 1.0
+  },
+  {
+    "start": 29.891,
+    "end": 31.694,
+    "text": "🌅🥶❄️",
+    "typingDuration": 1.0
+  },
+  {
+    "start": 31.794,
+    "end": 33.637,
+    "text": "➡️⚰️",
+    "typingDuration": 2.0
+  },
+  {
+    "start": 33.717,
+    "end": 35.74,
+    "text": "😭🌫️💔",
+    "typingDuration": 1.0
+  },
+  {
+    "start": 35.76,
+    "end": 37.944,
+    "text": "🤲🌑🌾🌍",
+    "typingDuration": 1.0
+  },
+  {
+    "start": 38.024,
+    "end": 40.148,
+    "text": "🌿🔪🧺",
+    "typingDuration": 1.0
+  },
+  {
+    "start": 40.208,
+    "end": 45.817,
+    "text": "🥞🔥🍽️",
+    "typingDuration": 6.0
+  },
+  {
+    "start": 45.857,
+    "end": 48.542,
+    "text": "🚶🕯️🙏",
+    "typingDuration": 1.0
+  },
+  {
+    "start": 48.602,
+    "end": 55.0,
+    "text": "⛪️🍽️",
+    "typingDuration": 4.0
+  },
+  {
+    "start": 55.0,
+    "end": 59.0,
+    "text": "👶😴🎶",
+    "typingDuration": 3.0
+  },
+  {
+    "start": 59.0,
+    "end": 62.89,
+    "text": "🛏️⚠️🕳️",
+    "typingDuration": 3.0
+  },
+  {
+    "start": 62.89,
+    "end": 68.837,
+    "text": "🌅🥶❄️",
+    "typingDuration": 3.0
+  },
+  {
+    "start": 68.857,
+    "end": 80.189,
+    "text": "👤➡️⚰️",
+    "typingDuration": 6.0
+  },
+  {
+    "start": 80.61,
+    "end": 82.832,
+    "text": "👶😴🌙",
+    "typingDuration": 1.0
+  },
+  {
+    "start": 82.912,
+    "end": 85.034,
+    "text": "🍂🕰️🔄",
+    "typingDuration": 1.0
+  },
+  {
+    "start": 85.034,
+    "end": 87.0,
+    "text": "👶🎁✨",
+    "typingDuration": 0.6
+  },
+  {
+    "start": 87.0,
+    "end": 89.0,
+    "text": "👦🗓️💀",
+    "typingDuration": 0.6
+  },
+  {
+    "start": 89.0,
+    "end": 93.5,
+    "text": "🗓️➡️⚰️",
+    "typingDuration": 0.9
+  },
+
+  {
+    "start": 93.5,
+    "end": 98.0,
+    "text": "🔔🎶🎶",
+    "typingDuration": 5.0
+  },
+  {
+    "start": 98.0,
+    "end": 103.352,
+    "text": "👶😴🎶",
+    "typingDuration": 3.0
+  },
+  {
+    "start": 103.432,
+    "end": 107.0,
+    "text": "🛏️⚠️🕳️",
+    "typingDuration": 3.0
+  },
+  {
+    "start": 107.0,
+    "end": 112.0,
+    "text": "🌅🥶❄️",
+    "typingDuration": 3.0
+  },
+  {
+    "start": 112.0,
+    "end": 120.0,
+    "text": "👤➡️⚰️",
+    "typingDuration": 6.0
+  },
+  {
+    "start": 133.0,
+    "end": 137.0,
+    "text": "👶😴🎶",
+    "typingDuration": 3.0
+  },
+  {
+    "start": 137.0,
+    "end": 141.0,
+    "text": "⚰️💀🕯️",
+    "typingDuration": 2.0
+  },
+  {
+    "start": 141.0,
+    "end": 145.0,
+    "text": "😭🌫️💔",
+    "typingDuration": 2.5
+  },
+  {
+    "start": 145.0,
+    "end": 150.0,
+    "text": "🤲🌑🌾🌍",
+    "typingDuration": 2.5
+  },
+  {
+    "start": 150.0,
+    "end": 154.0,
+    "text": "👶😴🎶",
+    "typingDuration": 3.5
+  },
+  {
+    "start": 154.0,
+    "end": 159.0,
+    "text": "⚰️💀🕯️",
+    "typingDuration": 2.0
+  },
+  {
+    "start": 159.0,
+    "end": 163.0,
+    "text": "😭🌫️💔",
+    "typingDuration": 2.0
+  },
+  {
+    "start": 163.0,
+    "end": 172.0,
+    "text": "🤲🌑🌾🌍",
+    "typingDuration": 4.0
+  }
+]
+}
