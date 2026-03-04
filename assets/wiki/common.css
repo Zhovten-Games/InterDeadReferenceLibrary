@@ -1,6 +1,8 @@
 /* CSS placed here will be applied to all skins */
 :root {
 	--color-accent-rgb: 138, 229, 144;
+	--color-selection-bg: rgba(111, 214, 124, 0.35);
+	--color-selection-text: #eaffec;
 	--theme-body-background-color: #001501;
 	--theme-page-background-color: linear-gradient(180deg,rgba(255,255,255,2%) 0%,rgba(255,255,255,1%) 100%);
 	--theme-page-background-color--secondary: #001501;
@@ -14,6 +16,11 @@
 	--theme-link-color-hover: #d7ffdc;
 	--theme-link-color-visited: #7fbf87;
 	--theme-link-color-active: #eaffee;
+}
+
+::selection {
+  background: var(--color-selection-bg);
+  color: var(--color-selection-text);
 }
 
 body {
@@ -62,8 +69,9 @@ body::after {
 	z-index: 1;
 }
 
-a {color: var(--theme-link-color) !important;}
-a:hover {color: var(--theme-link-color-hover) !important;}
+a {color: var(--theme-link-color);}
+a:hover,
+.fandom-community-header *:hover {color: var(--theme-link-color-hover) !important;}
 
 .fandom-sticky-header {
 	backdrop-filter: blur(12px);
@@ -75,9 +83,10 @@ a:hover {color: var(--theme-link-color-hover) !important;}
 	border: 1px solid var(--color-frame-secondary);
 }
 
-.page__main a {text-decoration: underline !important;}
-.page__main a:visited {color: var(--theme-link-color-visited) !important;}
-.page__main a:active {color: var(--theme-link-color-active) !important;}
+.page__main a {text-decoration: underline;}
+.page__main a:visited {color: var(--theme-link-color-visited);}
+.page__main a:active,
+.page__main a:focus {color: var(--theme-link-color-active);}
 
 .page__right-rail {
 	background: var(--theme-page-background-color);
