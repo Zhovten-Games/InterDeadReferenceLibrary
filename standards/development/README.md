@@ -18,3 +18,7 @@ These standards apply to any repository that contains software, build tooling, o
 - [Testing](./testing.md)
 - [Hexagonal Architecture](./architecture-hexagonal.md)
 - [Work Specification Template](./work-spec-template.md)
+
+Related documentation standards:
+
+- [Implementation Documentation Header Standard](../documentation/implementation-doc-header-standard.md)
