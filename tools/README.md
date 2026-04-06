@@ -19,6 +19,7 @@ This directory contains helper scripts used to build and maintain the InterDead 
   - Purpose: extract speech/line timecodes from audio and generate intermediate JSON artifacts (`transcript`, `aligned`, `blocks`, `cues.template`) for emoji cue preparation.
   - Related docs and usage: [tools/python_asr/whisperx_timing_builder/README.md](./python_asr/whisperx_timing_builder/README.md)
 
-## Related content
-
-- [Wiki sources](../wiki/)
+- **terminal_scene_video_builder** (Node.js + browser automation)
+  - Location: [tools/node_browser/terminal_scene_video_builder/](./node_browser/terminal_scene_video_builder/)
+  - Purpose: render terminal scene videos from scripted session inputs and generate reusable scene artifacts for downstream video assembly workflows.
+  - Related docs and usage: [tools/node_browser/terminal_scene_video_builder/README.md](./node_browser/terminal_scene_video_builder/README.md)
