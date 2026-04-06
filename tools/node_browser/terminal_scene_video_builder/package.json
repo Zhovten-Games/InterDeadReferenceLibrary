@@ -1,0 +1,19 @@
+{
+  "name": "terminal_scene_video_builder",
+  "version": "1.0.0",
+  "description": "`terminal_scene_video_builder` renders an autonomous HTML/CSS/JS terminal scene to MP4.",
+  "main": "terminal_scene_video_builder.js",
+  "type": "module",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.58.2"
+  }
+}

@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cinematic Text Scene Renderer</title>
+    <link rel="stylesheet" href="./styles/scene.css" />
+    <link rel="stylesheet" href="./styles/theme-overrides.css" />
+  </head>
+  <body data-scene-root>
+    <div class="scene">
+      <div class="scene__background" data-background></div>
+      <canvas class="scene__membrane" data-membrane-canvas></canvas>
+      <main class="scene__content">
+        <section class="scene__text-overlay" data-text-overlay></section>
+      </main>
+    </div>
+    <audio data-scene-audio preload="auto"></audio>
+    <script type="module" src="./scripts/bootstrap.js"></script>
+  </body>
+</html>

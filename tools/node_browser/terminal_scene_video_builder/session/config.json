@@ -1,0 +1,59 @@
+{
+  "inputs": {
+    "background": "bg.png",
+    "audio": "input.mp3"
+  },
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 30,
+    "crf": 15,
+    "durationMode": "audio",
+    "pixelFormat": "yuv444p",
+    "x264Preset": "slow",
+    "videoBitrate": "10M"
+  },
+  "render": {
+    "mode": "browser_frames",
+    "tmpDir": "out/.tmp_frames",
+    "keepFrames": false,
+    "sceneHtmlPath": "../app/scene.html",
+    "frameworkBundlePath": "../InterDeadCore/framework/dist/browser/interdead-framework.global.js",
+    "frameworkMembrane": {
+      "lineCount": 24,
+      "amplitude": 7,
+      "pulseDecay": 0.9,
+      "lineColor": "rgba(138, 229, 144, 0.28)",
+      "pulseColor": "rgba(198, 110, 72, 0.45)"
+    }
+  },
+  "scene": {
+    "mode": "text_overlay"
+  },
+  "layout": {
+    "safeWidth": 1000,
+    "fontFamily": "'Pirata One', 'Calling Code', sans-serif"
+  },
+  "textOverlay": {
+    "contentFile": "text.md",
+    "start": 0.2,
+    "fadeInSec": 0.6,
+    "fadeOutSec": 0.8,
+    "x": 0.5,
+    "y": 0.0,
+    "anchorX": 0.5,
+    "anchorY": 0.0,
+    "align": "center",
+    "maxWidth": 1020,
+    "fontSize": 38,
+    "reveal": {
+      "mode": "credits_scroll",
+      "fitToAudioDuration": true
+    },
+    "topInsetPx": 120,
+    "bottomInsetPx": 120
+  },
+  "output": {
+    "file": "out/final.mp4"
+  }
+}

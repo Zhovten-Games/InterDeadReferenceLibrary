@@ -1,0 +1,13 @@
+body.scene-mode-center_title .scene__terminal-log,
+body.scene-mode-center_title .scene__input-strip {
+  opacity: 0;
+}
+
+body.scene-mode-terminal_log .scene__center-title {
+  opacity: 0;
+}
+
+.scene__line[data-depth='0'] { opacity: 1; }
+.scene__line[data-depth='1'] { opacity: 0.86; }
+.scene__line[data-depth='2'] { opacity: 0.72; }
+.scene__line[data-depth='3'] { opacity: 0.58; }
