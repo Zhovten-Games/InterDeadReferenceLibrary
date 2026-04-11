@@ -1,0 +1,49 @@
+{
+  "video": {
+    "preset": "4k"
+  },
+  "page": {
+    "lang": "en-US"
+  },
+  "background": {
+    "color": "#001501",
+    "image": null,
+    "enableScanlines": true,
+    "scanlinesOpacity": 0.18,
+    "vignetteOpacity": 0.6
+  },
+  "textItems": [
+    {
+      "text": "INTERDEAD\nSCREENSHOT",
+      "xPct": 50,
+      "yPct": 48,
+      "fontSize": 220,
+      "fontWeight": 400,
+      "align": "center",
+      "anchor": "center",
+      "lineHeight": 1.08,
+      "letterSpacing": 0.02,
+      "maxWidth": 2900
+    },
+    {
+      "text": "CONFIG-DRIVEN STATIC CAPTURE",
+      "xPct": 50,
+      "yPct": 70,
+      "fontSize": 84,
+      "fontWeight": 400,
+      "align": "center",
+      "anchor": "center",
+      "lineHeight": 1.15,
+      "letterSpacing": 0.04,
+      "maxWidth": 2400,
+      "color": "#7dd387"
+    }
+  ],
+  "screenshot": {
+    "type": "png",
+    "omitBackground": false
+  },
+  "output": {
+    "file": "out/screenshot.png"
+  }
+}
