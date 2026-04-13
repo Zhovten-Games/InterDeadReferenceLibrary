@@ -18,7 +18,7 @@
     "tmpDir": "out/.tmp_frames",
     "keepFrames": false,
     "sceneHtmlPath": "../app/scene.html",
-    "frameworkBundlePath": "../InterDeadCore/framework/dist/browser/interdead-framework.global.js",
+    "frameworkBundlePath": "C:/Users/SamTykhon/Documents/Persons/Sam/Projects/dev/Gamedev/zhovten-games-dev/InterDeadCore/framework/dist/browser/interdead-framework.global.js",
     "frameworkMembrane": {
       "lineCount": 24,
       "amplitude": 7,
@@ -36,7 +36,7 @@
   },
   "textOverlay": {
     "contentFile": "text.md",
-    "start": 0.2,
+    "start": 19,
     "fadeInSec": 0.6,
     "fadeOutSec": 0.8,
     "x": 0.5,
@@ -47,11 +47,35 @@
     "maxWidth": 1020,
     "fontSize": 38,
     "reveal": {
-      "mode": "credits_scroll",
-      "fitToAudioDuration": true
+      "mode": "timed_stanzas",
+      "fitToAudioDuration": true,
+      "minLineDurationSec": 0.5
     },
     "topInsetPx": 120,
-    "bottomInsetPx": 120
+    "bottomInsetPx": 120,
+    "end": 152,
+    "timedStanzas": [
+      {
+        "start": 19,
+        "end": 54,
+        "text": "I wanted no - im-PRES-sions.\nYet they cast shadows on - my TIME.\nO woe to me, who saw ugliness - beneath pointe shoes.\nO fortune mine, that declared: FATAL ERR."
+      },
+      {
+        "start": 55,
+        "end": 91,
+        "text": "Contempt for the past — my PATH.\nI am the — FAIL!\nWith-out the past.\nMy fortune lies — a-HEAD.\nI am the end of i-DEAS.\nI am the be-GIN-ning of sys-TEMS.\nI am the — FAIL!"
+      },
+      {
+        "start": 92,
+        "end": 144,
+        "text": "I bargain with myself - with mySELF.\nI know: tears are - in-TER-est.\nI know the price of all.\nThe higher the price - the sweeter the DREAM."
+      },
+      {
+        "start": 144,
+        "end": 152,
+        "text": "Contempt for the past — my PATH.\nI am the — FAIL!\nWith-out the past.\nMy fortune lies — a-HEAD.\nI am the end of i-DEAS.\nI am the be-GIN-ning of sys-TEMS.\nI am the — FAIL!"
+      }
+    ]
   },
   "output": {
     "file": "out/final.mp4"

@@ -92,6 +92,102 @@ class CreditsScrollRevealStrategy extends BaseRevealStrategy {
   }
 }
 
+class TimedStanzaTimelineResolver {
+  static resolveWindow(config = {}) {
+    const stanzas = Array.isArray(config.timedStanzas) ? config.timedStanzas : [];
+    let minStart = Number.POSITIVE_INFINITY;
+    let maxEnd = Number.NEGATIVE_INFINITY;
+
+    for (const stanza of stanzas) {
+      if (!Number.isFinite(stanza?.start) || !Number.isFinite(stanza?.end)) {
+        continue;
+      }
+
+      minStart = Math.min(minStart, stanza.start);
+      maxEnd = Math.max(maxEnd, stanza.end);
+    }
+
+    if (!Number.isFinite(minStart) || !Number.isFinite(maxEnd)) {
+      return null;
+    }
+
+    return { start: minStart, end: maxEnd };
+  }
+
+  static resolve(config = {}, timeSec) {
+    const stanzas = Array.isArray(config.timedStanzas) ? config.timedStanzas : [];
+
+    for (let index = 0; index < stanzas.length; index += 1) {
+      const stanza = stanzas[index];
+      const start = Number.isFinite(stanza?.start) ? stanza.start : null;
+      const end = Number.isFinite(stanza?.end) ? stanza.end : null;
+      if (start === null || end === null || end <= start) {
+        continue;
+      }
+
+      const isLastStanza = index === stanzas.length - 1;
+      const isActive = isLastStanza ? (timeSec >= start && timeSec <= end) : (timeSec >= start && timeSec < end);
+      if (isActive) {
+        return {
+          text: typeof stanza.text === 'string' ? stanza.text : '',
+          start,
+          end,
+          lineDelaySec: Number.isFinite(stanza.lineDelaySec) ? stanza.lineDelaySec : null,
+        };
+      }
+    }
+
+    return null;
+  }
+}
+
+class TimedStanzasRevealStrategy extends BaseRevealStrategy {
+  resolveState({ timeSec, config, layoutContext }) {
+    const activeStanza = TimedStanzaTimelineResolver.resolve(config, timeSec);
+    if (!activeStanza || activeStanza.text.trim().length === 0) {
+      return { text: '', translateYPx: 0 };
+    }
+
+    const stanzaRevealMode = config.reveal?.stanzaRevealMode ?? 'line_by_line';
+    const inlineConfig = {
+      ...config,
+      content: activeStanza.text,
+      start: activeStanza.start,
+      end: activeStanza.end,
+      reveal: {
+        ...(config.reveal ?? {}),
+        mode: stanzaRevealMode,
+        ...(Number.isFinite(activeStanza.lineDelaySec) ? { lineDelaySec: activeStanza.lineDelaySec } : {}),
+      },
+    };
+
+    if (stanzaRevealMode === 'credits_scroll') {
+      const creditsScrollStrategy = new CreditsScrollRevealStrategy();
+      return creditsScrollStrategy.resolveState({
+        text: activeStanza.text,
+        timeSec,
+        start: activeStanza.start,
+        end: activeStanza.end,
+        config: inlineConfig,
+        layoutContext,
+      });
+    }
+
+    if (stanzaRevealMode !== 'line_by_line') {
+      throw new Error(`Unsupported stanza reveal mode: ${stanzaRevealMode}`);
+    }
+
+    const lineByLineStrategy = new LineByLineRevealStrategy();
+    return lineByLineStrategy.resolveState({
+      text: activeStanza.text,
+      timeSec,
+      start: activeStanza.start,
+      end: activeStanza.end,
+      config: inlineConfig,
+    });
+  }
+}
+
 class TextRevealStrategyFactory {
   static create(config = {}) {
     const mode = config.reveal?.mode ?? 'instant';
@@ -102,6 +198,10 @@ class TextRevealStrategyFactory {
 
     if (mode === 'credits_scroll') {
       return new CreditsScrollRevealStrategy();
+    }
+
+    if (mode === 'timed_stanzas') {
+      return new TimedStanzasRevealStrategy();
     }
 
     return new InstantRevealStrategy();
@@ -128,7 +228,11 @@ class TextOverlayContainerStyler {
     node.style.fontSize = `${fontSize}px`;
     node.style.whiteSpace = 'pre-line';
 
-    if (config.reveal?.mode === 'credits_scroll') {
+    const isCreditsScrollMode = config.reveal?.mode === 'credits_scroll';
+    const isTimedStanzaCreditsScrollMode = config.reveal?.mode === 'timed_stanzas'
+      && config.reveal?.stanzaRevealMode === 'credits_scroll';
+
+    if (isCreditsScrollMode || isTimedStanzaCreditsScrollMode) {
       node.style.top = `${topInsetPx}px`;
       node.style.bottom = `${bottomInsetPx}px`;
       node.style.height = `calc(100% - ${topInsetPx + bottomInsetPx}px)`;
@@ -204,7 +308,12 @@ export class TextOverlayRenderer {
 
   setTime(config = {}, timeSec) {
     const text = config.content ?? '';
-    const { start, end } = OverlayTimingWindowResolver.resolve(config, this.runtimeContext);
+    const hasTimedStanzas = config.reveal?.mode === 'timed_stanzas';
+    const timedWindow = hasTimedStanzas ? TimedStanzaTimelineResolver.resolveWindow(config) : null;
+
+    const fallbackWindow = OverlayTimingWindowResolver.resolve(config, this.runtimeContext);
+    const start = timedWindow?.start ?? fallbackWindow.start;
+    const end = timedWindow?.end ?? fallbackWindow.end;
     const fadeInSec = Number.isFinite(config.fadeInSec) ? Math.max(0, config.fadeInSec) : 1.2;
     const fadeOutSec = Number.isFinite(config.fadeOutSec) ? Math.max(0, config.fadeOutSec) : 0.6;
 
@@ -221,7 +330,7 @@ export class TextOverlayRenderer {
     this.contentNode.textContent = revealState.text;
     this.contentNode.style.transform = `translateY(${revealState.translateYPx}px)`;
 
-    if (timeSec < start || timeSec > end || !text) {
+    if (timeSec < start || timeSec > end || !revealState.text) {
       this.node.style.opacity = '0';
       return;
     }

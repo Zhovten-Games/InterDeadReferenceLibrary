@@ -226,3 +226,126 @@ test('ConfigModel rejects invalid textOverlay.reveal.fitToAudioDuration', () => 
 
   assert.throws(() => ConfigModel.validateConfig(sampleConfig), /textOverlay\.reveal\.fitToAudioDuration/);
 });
+
+test('ConfigModel rejects invalid textOverlay.reveal.stanzaRevealMode', () => {
+  const sampleConfig = {
+    inputs: { background: 'bg.png', audio: 'input.mp3' },
+    video: { width: 1280, height: 720, fps: 30 },
+    render: {},
+    output: { file: 'out/final.mp4' },
+    scene: { mode: 'text_overlay' },
+    textOverlay: {
+      content: 'x',
+      start: 0,
+      reveal: { mode: 'timed_stanzas', stanzaRevealMode: 'unsupported_mode' },
+      timedStanzas: [{ start: 0, end: 1, text: 'line' }],
+    },
+  };
+
+  assert.throws(() => ConfigModel.validateConfig(sampleConfig), /textOverlay\.reveal\.stanzaRevealMode/);
+});
+
+test('ConfigModel rejects missing timedStanzas for timed_stanzas mode', () => {
+  const sampleConfig = {
+    inputs: { background: 'bg.png', audio: 'input.mp3' },
+    video: { width: 1280, height: 720, fps: 30 },
+    render: {},
+    output: { file: 'out/final.mp4' },
+    scene: { mode: 'text_overlay' },
+    textOverlay: { content: 'x', start: 0, reveal: { mode: 'timed_stanzas' } },
+  };
+
+  assert.throws(() => ConfigModel.validateConfig(sampleConfig), /textOverlay\.timedStanzas must be an array/);
+});
+
+test('ConfigModel rejects empty timedStanzas for timed_stanzas mode', () => {
+  const sampleConfig = {
+    inputs: { background: 'bg.png', audio: 'input.mp3' },
+    video: { width: 1280, height: 720, fps: 30 },
+    render: {},
+    output: { file: 'out/final.mp4' },
+    scene: { mode: 'text_overlay' },
+    textOverlay: { content: 'x', start: 0, reveal: { mode: 'timed_stanzas' }, timedStanzas: [] },
+  };
+
+  assert.throws(() => ConfigModel.validateConfig(sampleConfig), /textOverlay\.timedStanzas must not be empty/);
+});
+
+test('ConfigModel rejects malformed timedStanzas items', () => {
+  const sampleConfig = {
+    inputs: { background: 'bg.png', audio: 'input.mp3' },
+    video: { width: 1280, height: 720, fps: 30 },
+    render: {},
+    output: { file: 'out/final.mp4' },
+    scene: { mode: 'text_overlay' },
+    textOverlay: {
+      content: 'x',
+      start: 0,
+      reveal: { mode: 'timed_stanzas' },
+      timedStanzas: [
+        { start: '19', end: 54, text: 'verse' },
+      ],
+    },
+  };
+
+  assert.throws(() => ConfigModel.validateConfig(sampleConfig), /timedStanzas\[0\]\.start must be a number/);
+});
+
+test('ConfigModel rejects unsorted timedStanzas', () => {
+  const sampleConfig = {
+    inputs: { background: 'bg.png', audio: 'input.mp3' },
+    video: { width: 1280, height: 720, fps: 30 },
+    render: {},
+    output: { file: 'out/final.mp4' },
+    scene: { mode: 'text_overlay' },
+    textOverlay: {
+      content: 'x',
+      start: 0,
+      reveal: { mode: 'timed_stanzas' },
+      timedStanzas: [
+        { start: 20, end: 30, text: 'two' },
+        { start: 10, end: 19, text: 'one' },
+      ],
+    },
+  };
+
+  assert.throws(() => ConfigModel.validateConfig(sampleConfig), /must be sorted by start/);
+});
+
+test('ConfigModel rejects overlapping timedStanzas', () => {
+  const sampleConfig = {
+    inputs: { background: 'bg.png', audio: 'input.mp3' },
+    video: { width: 1280, height: 720, fps: 30 },
+    render: {},
+    output: { file: 'out/final.mp4' },
+    scene: { mode: 'text_overlay' },
+    textOverlay: {
+      content: 'x',
+      start: 0,
+      reveal: { mode: 'timed_stanzas' },
+      timedStanzas: [
+        { start: 10, end: 25, text: 'one' },
+        { start: 20, end: 30, text: 'two' },
+      ],
+    },
+  };
+
+  assert.throws(() => ConfigModel.validateConfig(sampleConfig), /must not overlap/);
+});
+
+test('ConfigModel allows timed_stanzas mode without content/contentFile when timedStanzas is provided', () => {
+  const sampleConfig = {
+    inputs: { background: 'bg.png', audio: 'input.mp3' },
+    video: { width: 1280, height: 720, fps: 30 },
+    render: {},
+    output: { file: 'out/final.mp4' },
+    scene: { mode: 'text_overlay' },
+    textOverlay: {
+      start: 0,
+      reveal: { mode: 'timed_stanzas' },
+      timedStanzas: [{ start: 10, end: 20, text: 'one' }],
+    },
+  };
+
+  assert.doesNotThrow(() => ConfigModel.validateConfig(sampleConfig));
+});

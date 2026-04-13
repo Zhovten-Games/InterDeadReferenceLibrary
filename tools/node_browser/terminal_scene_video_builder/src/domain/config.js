@@ -1,7 +1,11 @@
+import { assertTimedStanzaConfigValid } from './timed-stanza-validation.js';
+
 const SCENE_MODES = new Set(['text_overlay']);
 const TEXT_ALIGNMENTS = new Set(['left', 'center', 'right']);
-export const REVEAL_MODE_VALUES = ['instant', 'line_by_line', 'credits_scroll'];
+export const REVEAL_MODE_VALUES = ['instant', 'line_by_line', 'credits_scroll', 'timed_stanzas'];
 export const REVEAL_MODES = new Set(REVEAL_MODE_VALUES);
+export const STANZA_REVEAL_MODE_VALUES = ['line_by_line', 'credits_scroll'];
+export const STANZA_REVEAL_MODES = new Set(STANZA_REVEAL_MODE_VALUES);
 
 export class ConfigModel {
   constructor(data) {
@@ -39,12 +43,14 @@ export class ConfigModel {
     }
 
     const textOverlay = data.textOverlay ?? {};
+    if ('reveal' in textOverlay && (typeof textOverlay.reveal !== 'object' || textOverlay.reveal === null || Array.isArray(textOverlay.reveal))) {
+      throw new Error('textOverlay.reveal must be an object when provided.');
+    }
+    const reveal = textOverlay.reveal ?? {};
+    const isTimedStanzasMode = reveal.mode === 'timed_stanzas';
     const hasInlineContent = typeof textOverlay.content === 'string';
     const hasContentFile = typeof textOverlay.contentFile === 'string';
 
-    if (!hasInlineContent && !hasContentFile) {
-      throw new Error('textOverlay.content or textOverlay.contentFile must be provided.');
-    }
     if (hasInlineContent && hasContentFile) {
       throw new Error('textOverlay.content and textOverlay.contentFile cannot be used together.');
     }
@@ -54,21 +60,22 @@ export class ConfigModel {
     if (hasContentFile && textOverlay.contentFile.trim().length === 0) {
       throw new Error('textOverlay.contentFile must not be empty.');
     }
+    if (!isTimedStanzasMode && !hasInlineContent && !hasContentFile) {
+      throw new Error('textOverlay.content or textOverlay.contentFile must be provided.');
+    }
+    if (isTimedStanzasMode && !hasInlineContent && !hasContentFile && !Array.isArray(textOverlay.timedStanzas)) {
+      throw new Error(
+        'textOverlay.timedStanzas must be provided when reveal.mode is timed_stanzas and no content/contentFile is set.',
+      );
+    }
     if (typeof textOverlay.start !== 'number') {
       throw new Error('textOverlay.start must be a number.');
     }
     if ('end' in textOverlay && (typeof textOverlay.end !== 'number' || textOverlay.end <= textOverlay.start)) {
       throw new Error('textOverlay.end must be a number greater than textOverlay.start when provided.');
     }
-
-
-    if ('reveal' in textOverlay && (typeof textOverlay.reveal !== 'object' || textOverlay.reveal === null || Array.isArray(textOverlay.reveal))) {
-      throw new Error('textOverlay.reveal must be an object when provided.');
-    }
-
-    const reveal = textOverlay.reveal ?? {};
     if ('mode' in reveal && !REVEAL_MODES.has(reveal.mode)) {
-      throw new Error('textOverlay.reveal.mode must be one of: instant, line_by_line, credits_scroll.');
+      throw new Error('textOverlay.reveal.mode must be one of: instant, line_by_line, credits_scroll, timed_stanzas.');
     }
     if ('lineDelaySec' in reveal && (typeof reveal.lineDelaySec !== 'number' || reveal.lineDelaySec <= 0)) {
       throw new Error('textOverlay.reveal.lineDelaySec must be > 0.');
@@ -79,6 +86,10 @@ export class ConfigModel {
     if ('fitToAudioDuration' in reveal && typeof reveal.fitToAudioDuration !== 'boolean') {
       throw new Error('textOverlay.reveal.fitToAudioDuration must be a boolean.');
     }
+    if ('stanzaRevealMode' in reveal && !STANZA_REVEAL_MODES.has(reveal.stanzaRevealMode)) {
+      throw new Error(`textOverlay.reveal.stanzaRevealMode must be one of: ${STANZA_REVEAL_MODE_VALUES.join(', ')}.`);
+    }
+    assertTimedStanzaConfigValid(textOverlay, reveal.mode);
 
 
     if ('topInsetPx' in textOverlay && (typeof textOverlay.topInsetPx !== 'number' || textOverlay.topInsetPx < 0)) {

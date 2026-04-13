@@ -1,7 +1,8 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { spawnSync } from 'node:child_process';
-import { REVEAL_MODES, REVEAL_MODE_VALUES } from '../domain/config.js';
+import { REVEAL_MODES, REVEAL_MODE_VALUES, STANZA_REVEAL_MODES, STANZA_REVEAL_MODE_VALUES } from '../domain/config.js';
+import { collectTimedStanzaValidationErrors } from '../domain/timed-stanza-validation.js';
 import { FrameworkBundleResolver } from './framework-bundle-resolver.js';
 import { FrameworkBuildGuide } from './framework-build-guide.js';
 
@@ -108,6 +109,10 @@ export class ValidationService {
     if ('fitToAudioDuration' in reveal && typeof reveal.fitToAudioDuration !== 'boolean') {
       errors.push('textOverlay.reveal.fitToAudioDuration must be a boolean.');
     }
+    if ('stanzaRevealMode' in reveal && !STANZA_REVEAL_MODES.has(reveal.stanzaRevealMode)) {
+      errors.push(`textOverlay.reveal.stanzaRevealMode must be one of: ${STANZA_REVEAL_MODE_VALUES.join(', ')}.`);
+    }
+    errors.push(...collectTimedStanzaValidationErrors(textOverlay, reveal.mode));
 
     const check01 = (key) => {
       if (!(key in textOverlay)) return;
