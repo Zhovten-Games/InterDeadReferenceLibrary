@@ -14,6 +14,6 @@ This directory collects research notes and supporting articles used by the Inter
 
 - **Canon Horror Series: Language as Infection and the Systems of Horror v0.2**
   - Bilingual archived working-paper package on language, perception, media channels, contagion, environment, biopolitics, and systems of vulnerability in modern horror and science fiction. The materials are interconnected and published as working papers / preprints, not peer-reviewed articles.
-  - Zenodo archive: [10.5281/zenodo.19773964](https://doi.org/10.5281/zenodo.19773964)
+  - Zenodo archive: [10.5281/zenodo.20647570](https://doi.org/10.5281/zenodo.20647570)
   - Source repository: [canon-horror-01](https://github.com/Zhovten-Games/zhovten-games.github.io/tree/main/publications/research/canon-horror-01)
   - Build pipeline: [ZG Journal Template](https://github.com/Zhovten-Games/zg-journal-template)
