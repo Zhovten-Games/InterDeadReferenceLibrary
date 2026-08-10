@@ -31,7 +31,7 @@ Although InterDead is their point of departure, these materials are not direct g
 
 Bilingual archived working-paper package on language, perception, media channels, contagion, environment, biopolitics, and systems of vulnerability in modern horror and science fiction.
 
-* Zenodo archive: [10.5281/zenodo.20647570](https://doi.org/10.5281/zenodo.20647570)
+* Zenodo archive: [10.5281/zenodo.19773963](https://doi.org/10.5281/zenodo.19773963)
 * Source repository: [canon-horror-01](https://github.com/Zhovten-Games/zhovten-games.github.io/tree/main/publications/research/canon-horror-01)
 * Build pipeline: [ZG Journal Template](https://github.com/Zhovten-Games/zg-journal-template)
 
