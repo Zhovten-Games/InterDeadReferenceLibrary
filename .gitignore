@@ -23,3 +23,7 @@ env/
 # Other
 package.json
 package-lock.json
+.warden/
+**/node_modules/
+**/__pycache__/
+**/session/out/
