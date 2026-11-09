@@ -381,6 +381,6 @@ ACK — это реакция как значение. Если нужно ут�
 # Leibniz (1666), ''Dissertatio de arte combinatoria'' — оригинал/факсимиле: https://archive.org/details/ita-bnc-mag-00000844-001
 # English PDF (факсимиле/перевод), UC Homepages: https://homepages.uc.edu/~martinj/Rationalism/Leibniz/Leibniz%20-%20Art%20of%20Combinations%201666.pdf
 # Peckhaus (обзор традиций calculus ratiocinator / characteristica universalis): https://kw.uni-paderborn.de/fileadmin/fakultaet/Institute/philosophie/Peckhaus/Schriften_zum_Download/twotraditions.pdf
-# Внутренний материал InterDead: ''About Us'' (упоминание линии 1666 года): https://interdead.phantom-draft.com/ru/about/#один-из-ключевых-маркеров-социальной-идентичности
+# Внутренний материал InterDead: ''About Us'' (упоминание линии 1666 года): https://interdead.zhovten.games/ru/about/#один-из-ключевых-маркеров-социальной-идентичности
 # Поп‑якорь «паук/муха» (происхождение цитаты/атрибуция): https://mikelynchcartoons.blogspot.com/2014/10/charles-addams-quote-source.html
 [[Категория:Технологии и протоколы]]

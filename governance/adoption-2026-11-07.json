@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "status": "operative",
+  "authority": "Sam Starling",
+  "basis": "owner-instruction-2026-11-07",
+  "effective": "local application of the supplied patch",
+  "roleCombinationDisclosed": true,
+  "independentOksanaConsentClaimed": false,
+  "documents": {
+    "governance/PROFILE.md": "f4c9211cdff98a525409ab9ca9a2eb09ea07fbd84bd5f984e5e047e4120b5bb4",
+    "governance/legislation/ECOSYSTEM.md": "249144d80d9ee7a19aad95ab54c21594ee96a112f574c80cce38e01d35a3dc9d",
+    "governance/ecosystem.json": "f60a143b0bc193619968083809f38a2f2efd55d6ca6a375dacd15b5ddfda0ac3",
+    "governance/decisions/2026-11-07-adoption.md": "38562141ee2097b9d58c0ebf9f5f9253dde5e43a7b3028d69352f8564ec47905",
+    "vendor/code-constitution/SOURCE.json": "fd8ac86c4037715d36d132a3c75ad32434438d61d9a911a66b11a57365908626",
+    "governance/LICENSE.md": "c4deee3c500dea1bbf5fde016be157b4c3031f8cebbe56115858659f48d103b7"
+  }
+}

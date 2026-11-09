@@ -7,6 +7,10 @@ The structure separates two layers:
 * **Core reference notes** — compact materials stored directly in this repository.
 * **Side research / supporting studies** — related research outputs published or maintained as separate packages.
 
+## Research-to-implementation map
+
+The [engineering methods map](engineering-methods.md) connects the current publication records with canon contracts, NIRO communication, reproducible artifacts, Code Constitution, SPIDER, the portable C++ game and Workshop. It includes the current/planned projection graph and a seven-repository responsibility table.
+
 ## Core reference notes
 
 ### Brain Anatomy & Information Flow (Practical Primer)

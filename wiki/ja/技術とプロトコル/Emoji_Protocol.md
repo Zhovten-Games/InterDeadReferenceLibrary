@@ -383,6 +383,6 @@ Note: これらは明示的に「安全な」代替である。人格の妥協�
 # Leibniz (1666), ''Dissertatio de arte combinatoria'' — 原典／ファクシミリ: https://archive.org/details/ita-bnc-mag-00000844-001
 # English PDF (facsimile/translation), UC Homepages: https://homepages.uc.edu/~martinj/Rationalism/Leibniz/Leibniz%20-%20Art%20of%20Combinations%201666.pdf
 # Peckhaus (overview of calculus ratiocinator / characteristica universalis traditions): https://kw.uni-paderborn.de/fileadmin/fakultaet/Institute/philosophie/Peckhaus/Schriften_zum_Download/twotraditions.pdf
-# Internal InterDead material: ''About Us'' (mention of the 1666 line): https://interdead.phantom-draft.com/ja/about/#社会的アイデンティティの主要なマーカーの一つとして
+# Internal InterDead material: ''About Us'' (mention of the 1666 line): https://interdead.zhovten.games/ja/about/#社会的アイデンティティの主要なマーカーの一つとして
 # Pop anchor “spider/fly” (quote origin/attribution): https://mikelynchcartoons.blogspot.com/2014/10/charles-addams-quote-source.html
 [[カテゴリ:技術とプロトコル]]
