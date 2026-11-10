@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "InterDead visitor-controlled poll completion exchange",
+  "oneOf": [
+    { "$ref": "#/$defs/progress" },
+    {
+      "type": "object",
+      "required": ["format", "version", "save", "interdead_poll_progress"],
+      "properties": {
+        "format": { "const": "interdead.player-data" },
+        "version": { "const": 1 },
+        "save": { "type": "string" },
+        "interdead_poll_progress": { "$ref": "#/$defs/progress" }
+      }
+    }
+  ],
+  "$defs": {
+    "progress": {
+      "type": "object",
+      "required": ["format", "version", "completedPolls"],
+      "properties": {
+        "format": { "const": "interdead.poll-progress" },
+        "version": { "const": 1 },
+        "completedPolls": {
+          "type": "array",
+          "maxItems": 2,
+          "uniqueItems": true,
+          "items": { "enum": ["1-efbd-poll", "2-efbd-poll"] }
+        }
+      }
+    }
+  }
+}

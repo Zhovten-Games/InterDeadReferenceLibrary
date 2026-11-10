@@ -21,12 +21,12 @@ for family in sorted(tools.rglob("tests")):
         result = subprocess.run([sys.executable, "-m", "unittest", "discover", "-s", str(family), "-p", "test*.py"], cwd=family.parent)
         if result.returncode:
             failures.append(str(family.relative_to(root)))
-    javascript = sorted(family.glob("*.test.js"))
+    javascript = sorted([*family.glob("*.test.js"), *family.glob("*.test.mjs")])
     if javascript:
         result = subprocess.run(["node", "--test", *map(str, javascript)], cwd=family.parent)
         if result.returncode:
             failures.append(str(family.relative_to(root)))
-for file in sorted(tools.rglob("*.js")):
+for file in sorted([*tools.rglob("*.js"), *tools.rglob("*.mjs")]):
     if any(part in {"node_modules", "session", "assets"} for part in file.parts):
         continue
     result = subprocess.run(["node", "--input-type=module", "--check"], input=file.read_bytes(), capture_output=True)

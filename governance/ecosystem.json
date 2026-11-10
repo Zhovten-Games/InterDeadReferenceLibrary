@@ -3,7 +3,7 @@
   "project": "InterDeadReferenceLibrary",
   "revision": "1.0.0",
   "status": "operative",
-  "adoption": "governance/adoption-2026-11-07.json",
+  "adoption": "governance/adoption-2026-11-10.json",
   "constitution": {
     "repository": "https://github.com/FOP-Oksana-Dubinetska/code-constitution",
     "revision": "220dc9c286ae06f8b6ed60cdda75112eed0408ed",
@@ -32,5 +32,9 @@
         "tools/warden-tools.py"
       ]
     }
-  ]
+  ],
+  "interop": {
+    "receipt": "standards/interop/module-source.json",
+    "module": "tools/shared/poll-progress.mjs"
+  }
 }

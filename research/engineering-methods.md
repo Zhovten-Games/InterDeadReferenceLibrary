@@ -79,8 +79,7 @@ verification policy records its before/after control hashes and decision.
 
 ## Publication record status
 
-The current studio LinkedIn registry records the literate-programming and IRON
-CREED material cycle on 2026-09-12, earlier canon/communication/artifact cases
+The current studio LinkedIn registry records the literate-programming and IRONCREED material cycle on 2026-09-12, earlier canon/communication/artifact cases
 on 2026-02-20, and the studio anniversary on 2026-10-31
 ([anniversary post locator](https://lnkd.in/e-mHsQ5K)). The website EN umbrella
 adaptation remains **approved / pending publication** in its source registry.
