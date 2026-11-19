@@ -4,7 +4,7 @@ This repository applies the shared repository licensing policy published at:
 
 - Policy source: `https://github.com/FOP-Oksana-Dubinetska/repository-licensing-policy`
 - Git submodule path: `.licensing-policy/`
-- Pinned policy version: `v1.0.0 (6e4c2627717c079827ed4aa9044a5346b3ea3ddb)`
+- Pinned policy version: `v1.0.0 (ab9cd01a05aa314027d590c9db9284d35d247deb)`
 
 The policy submodule is incorporated by reference. Its presence does not automatically license this repository: this file declares the licenses that apply to this repository.
 

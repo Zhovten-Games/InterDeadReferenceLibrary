@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "locale": "uk",
+  "status": "candidate",
+  "sourceBaseCommit": "4cb7fdf57e0a6eb2360917c097bd570d122e362d",
+  "translator": "OpenAI Codex (machine-assisted translation)",
+  "reviewer": null,
+  "lastSubstantiveReview": null,
+  "documents": [
+    {
+      "translation": "governance/locales/uk/PROFILE.md",
+      "source": "governance/PROFILE.md",
+      "sourceSha256": "d5adb888eff3bf56f64b9cd61b2a3763cc9610e8e4a934b653fd4107c5feacaf",
+      "translationSha256": "70c8ea4db866c97f003ae3333d0f7e78871b7eb5e773971b52511459b456d0fe"
+    },
+    {
+      "translation": "governance/locales/uk/legislation/ECOSYSTEM.md",
+      "source": "governance/legislation/ECOSYSTEM.md",
+      "sourceSha256": "249144d80d9ee7a19aad95ab54c21594ee96a112f574c80cce38e01d35a3dc9d",
+      "translationSha256": "214ebda02060086a33afc253e0ebdf382fb1abde8495eb127c3651500319c0c1"
+    },
+    {
+      "translation": "governance/locales/uk/LICENSE.md",
+      "source": "governance/LICENSE.md",
+      "sourceSha256": "674b09586e4a067cfac723cb2ec15b651336cb9cb8dec18cb02c41bfe8b9c3bf",
+      "translationSha256": "050b6cffb51cf42f4dab6e4f7251a14bbc81d9b80078f1b4afb67961af2d784c"
+    },
+    {
+      "translation": "governance/locales/uk/REPOSITORY-LICENSE.md",
+      "source": "LICENSE.md",
+      "sourceSha256": "4b3377346cce434064ba4ef43ca21fcc2e56c5107749611b6829e7b286dfc6d6",
+      "translationSha256": "be755b9fbc6d0ea4668c025f2296473506ab683444770efcddfa9284b93a0ce2"
+    }
+  ]
+}
